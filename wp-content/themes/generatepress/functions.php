@@ -227,6 +227,11 @@ function generate_scripts()
 	$suffix = generate_get_min_suffix();
 	
 	// Enqueue our CSS.
+
+	// Bootstrap
+	wp_enqueue_style( 'bootstrap-css', get_template_directory_uri() . '/css/bootstrap.min.css' );
+	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js', array(), '3.0.0', true );
+
 	wp_enqueue_style( 'generate-style-grid', get_template_directory_uri() . "/css/unsemantic-grid{$suffix}.css", false, GENERATE_VERSION, 'all' );
 	wp_enqueue_style( 'generate-style', get_template_directory_uri() . '/style.css', false, GENERATE_VERSION, 'all' );
 	wp_enqueue_style( 'generate-mobile-style', get_template_directory_uri() . "/css/mobile{$suffix}.css", false, GENERATE_VERSION, 'all' );
@@ -396,7 +401,7 @@ add_action('generate_copyright_line','generate_add_login_attribution');
 function generate_add_login_attribution()
 {
 	?>
-	&#x000B7; <a href="<?php echo esc_url('https://generatepress.com');?>" target="_blank" title="GeneratePress" itemprop="url">GeneratePress</a>
+	&#x000B7; <a href="<?php echo esc_url('http://hoitomtsoftware.com/');?>" target="_blank" title="Hoitomt Software" itemprop="url">Hoitomt Software</a>
 	<?php
 }
 
