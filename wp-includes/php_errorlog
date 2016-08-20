@@ -1,0 +1,4 @@
+[03-Aug-2016 10:11:12 CST6CDT] PHP Fatal error:  Class 'Walker' not found in /home/hoitomts/public_html/midwest_force_select/wp-includes/class-walker-page-dropdown.php on line 17
+[03-Aug-2016 10:11:13 CST6CDT] PHP Fatal error:  Class 'Walker' not found in /home/hoitomts/public_html/midwest_force_select/wp-includes/nav-menu-template.php on line 16
+[03-Aug-2016 10:11:56 CST6CDT] PHP Fatal error:  Class 'Walker' not found in /home/hoitomts/public_html/midwest_force_select/wp-includes/class-walker-page.php on line 17
+[03-Aug-2016 10:12:00 CST6CDT] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/hoitomts/public_html/midwest_force_select/wp-includes/rss.php on line 19

@@ -157,7 +157,7 @@ class Generate_Page_Walker extends Walker_page
 		
 		if ( isset( $args['pages_with_children'][ $page->ID ] ) ) {
 			$css_class[] = 'menu-item-has-children';
-			$button = '<span role="button" class="dropdown-menu-toggle" aria-expanded="false"></span>';
+			$button = '<span role="button" class="dropdown-menu-toggle" aria-hidden="true" aria-expanded="false"></span>';
 		}
 
 		if ( ! empty( $current_page ) ) {
@@ -207,7 +207,7 @@ function generate_nav_dropdown( $item_output, $item, $depth, $args )
 		$dropdown = ( in_array( 'menu-item-has-children', $item->classes ) || in_array( 'page_item_has_children', $item->classes ) ) ? true : false;
 		if ( $dropdown ) :
 			// Add our arrow icon
-			$item_output = str_replace( $args->link_after . '</a>', $args->link_after . '<span role="button" class="dropdown-menu-toggle" aria-expanded="false"></span></a>', $item_output );
+			$item_output = str_replace( $args->link_after . '</a>', $args->link_after . '<span role="button" class="dropdown-menu-toggle" aria-hidden="true" aria-expanded="false"></span></a>', $item_output );
 		endif;
 	}
 	

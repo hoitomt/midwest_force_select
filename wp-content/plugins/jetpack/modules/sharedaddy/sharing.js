@@ -129,7 +129,7 @@ var updateLinkedInCount = function( data ) {
 	} );
 
 	$body = $( document.body ).on( 'post-load', WPCOMSharing_do );
-	$( document ).on( 'ready', function() {
+	$( document ).ready( function() {
 		$sharing_email = $( '#sharing_email' );
 		$body.append( $sharing_email );
 		WPCOMSharing_do();
@@ -204,7 +204,7 @@ var updateLinkedInCount = function( data ) {
 								$more_sharing_pane.data( 'justSlid', false );
 							}, 300 );
 
-							if ( $more_sharing_pane.find( '.share-google-plus-1' ).size() ) {
+							if ( $more_sharing_pane.find( '.share-google-plus-1' ).length ) {
 								// The pane needs to stay open for the Google+ Button
 								return;
 							}

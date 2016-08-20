@@ -1,0 +1,2 @@
+[01-Aug-2016 01:05:47 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/hoitomts/public_html/midwest_force_select/wp-content/themes/generatepress/index.php on line 14
+[03-Aug-2016 10:13:10 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/hoitomts/public_html/midwest_force_select/wp-content/themes/generatepress/index.php on line 14
