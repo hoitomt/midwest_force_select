@@ -245,6 +245,8 @@ function generate_scripts()
 	$icon_essentials = apply_filters( 'generate_fontawesome_essentials', false );
 	$icon_essentials = ( $icon_essentials ) ? '-essentials' : false;
 	wp_enqueue_style( "fontawesome{$icon_essentials}", get_template_directory_uri() . "/css/font-awesome{$icon_essentials}{$suffix}.css", false, '4.6.3', 'all' );
+	wp_enqueue_style( 'custom-styling', get_stylesheet_directory_uri() . '/css/custom.css' );
+
 	
 	// Add jQuery
 	wp_enqueue_script( 'jquery' );

@@ -6,59 +6,31 @@
  */
 
 get_header(); ?>
-  <div id="team-profile" ng-app="TeamProfile">
-    <div ng-controller="PlayerController" ng-init="init()">
-    	
-      <a ng-click="newPlayer()" ng-show=!showNewPlayerForm class="btn btn-success">
-        <span><i class="glyphicon glyphicon-plus"></i>Add Player</span>
-      </a>
-      <div id="new-player-form" ng-show="showNewPlayerForm">
-        <form ng-submit="submit()" class="form-horizontal" novalidate>
-          <input type="hidden" ng-model="player.id"/>
-          <label>Number</label>
-          <input type="text" ng-model="player.number"/>
-          <label>Name</label>
-          <input type="text" ng-model="player.name"/>
-          <button class="btn">Submit</button>
-          <a ng-click="newPlayer()" ng-show=showNewPlayerForm class="btn btn-danger">Cancel</a>
-        </form>
-        
-        <form class="form-horizontal">
-  <div class="form-group">
-    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
-    <div class="col-sm-10">
-      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-    </div>
-  </div>
-  <div class="form-group">
-    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
-    <div class="col-sm-10">
-      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
-    </div>
-  </div>
-  <div class="form-group">
-    <div class="col-sm-offset-2 col-sm-10">
-      <div class="checkbox">
-        <label>
-          <input type="checkbox"> Remember me
-        </label>
-      </div>
-    </div>
-  </div>
-  <div class="form-group">
-    <div class="col-sm-offset-2 col-sm-10">
-      <button type="submit" class="btn btn-default">Sign in</button>
-    </div>
-  </div>
-</form>
-        
-        
-      </div>
-        
-      <table class="table table-striped">
+<style type="text/css">
+  [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+  }
+</style>
+
+  <div id="team-profile" ng-app="PlayerDb">
+    <div ng-controller="TeamController">
+      <?php
+	if ( is_user_logged_in() ) {
+      ?>
+	<div style="margin-bottom: 10px;">
+          <a href="{{newPlayerLink()}}" class="btn btn-success">Add Player</a>
+        </div>
+      <?php
+      	}
+      ?>
+      <table id="team-table" class="table table-striped" data-slug=<?php 
+	    global $post;
+    	    $post_slug=$post->post_name;
+    	    echo $post_slug;
+	?>>
         <thead>
         <tr style="background-color: #537bac; color: #fff;">
-          <th>Number</th>
+          <th class="text-center">Number</th>
           <th>Name</th>
           <th>Height</th>
           <th>Position</th>
@@ -69,15 +41,20 @@ get_header(); ?>
         </thead>
         <tbody>
         <tr ng-repeat="player in players | orderBy:'number'">
-          <td>{{player.number}}</td>
+          <td class="text-center">{{player.number}}</td>
           <td><a href="{{playerLink(player)}}">{{player.name}}</a></td>
-          <td>{{player.height}}</td>
+          <td>{{height(player)}}</td>
           <td>{{player.position}}</td>
           <td>{{player.school}}</td>
           <td>{{player.year}}</td>
-          <td>
-            <a ng-click="editPlayer(player)"><i class="glyphicon glyphicon-pencil"></i></a>
-            <a ng-click="deletePlayer(player)"><i class="glyphicon glyphicon-remove"></i></a>
+          <td class="text-center">
+  	    <?php
+	      if ( is_user_logged_in() ) {
+	    ?>
+              <a ng-click="deletePlayer(player)"><i class="glyphicon glyphicon-remove"></i></a>
+            <?php
+              }
+            ?>
           </td>
         </tr>
         </tbody>
@@ -104,21 +81,25 @@ get_header(); ?>
 			<?php do_action('generate_after_main_content'); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
-	<script>
-		var ngAppContent = document.getElementById('team-profile');
-		ngAppContent.remove();
-		document.getElementsByClassName('entry-content')[0].innerHTML += ngAppContent.outerHTML;
-		var newNgAppContent = document.getElementById('team-profile');
-		newNgAppContent.style.display = '';
-	</script>
+        <script>
+          var ngAppContent = document.getElementById('team-profile');
+          jQuery('#team-profile').remove();
+          jQuery('.entry-content').append(ngAppContent.outerHTML);
+          var newNgAppContent = document.getElementById('team-profile');
+          newNgAppContent.style.display = '';
+        </script>
+
 	
+	<script src="/wp-content/themes/generatepress/js/tinymce/js/tinymce/tinymce.min.js"></script>
+	<script src="/wp-content/themes/generatepress/js/jquery-1.12.4.min.js"></script>
 	<script src="/wp-content/themes/generatepress/js/angular/angular.min.js"></script>
 	<script src="/wp-content/themes/generatepress/js/angular/angular-resource.min.js"></script>
-	<script src="/wp-content/themes/generatepress/js/angular/angular-route.min.js"></script>
+	<script src="/wp-content/themes/generatepress/js/angular/angular-sanitize.min.js"></script>
+	<script src="/wp-content/themes/generatepress/js/tinymce/js/angular-ui_tinymce/tinymce.min.js"></script>
 	
-	<script src="/wp-content/themes/generatepress/team-profile-app/app.js"></script>
-	<script src="/wp-content/themes/generatepress/team-profile-app/services/player.js"></script>
-	<script src="/wp-content/themes/generatepress/team-profile-app/controllers/player_controller.js"></script>
+	<script src="/wp-content/themes/generatepress/app/app.js"></script>
+	<script src="/wp-content/themes/generatepress/app/team_controller.js"></script>
+	<script src="/wp-content/themes/generatepress/app/player.js"></script>
 <?php 
 do_action('generate_sidebars');
 get_footer();

@@ -1,3 +1,449 @@
 [22-Jun-2016 03:35:46 UTC] PHP Warning:  Division by zero in /home/hoitomts/public_html/midwest_force_select/wp-content/plugins/columns-for-bootstrap/columns.php on line 133
 [22-Jun-2016 03:36:57 UTC] PHP Warning:  Division by zero in /home/hoitomts/public_html/midwest_force_select/wp-content/plugins/columns-for-bootstrap/columns.php on line 133
 [12-Aug-2016 01:22:53 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/hoitomts/public_html/midwest_force_select/wp-content/themes/generatepress/team_home_page.php on line 29
+[09-Sep-2016 03:54:13 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/hoitomts/public_html/midwest_force_select/wp-content/themes/generatepress/player_profile_page.php on line 34
+[04-Jan-2017 16:51:13 CST6CDT] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Missing required param: amount.' in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php:110 from API request 'req_9s7qcjRGQggwOo'
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/Charge.php(73): Stripe\ApiResource::_create in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php on line 110
+[16-Jan-2017 21:05:25 CST6CDT] PHP Fatal error:  Uncaught exception 'Stripe\Error\Card' with message 'Your card was declined.' in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php:114 from API request 'req_9wgfe5MZ7r7u0A'
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 402, Array, Array)
+#1 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 402, Array)
+#2 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/Charge.php(73): Stripe\ApiResource::_create(Array, NULL)
+#5 / in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php on line 114
+[29-Jan-2017 16:59:56 CST6CDT] PHP Parse error:  syntax error, unexpected 'try' (T_TRY) in /home/hoitomts/public_html/midwest_force_select/forms.php on line 27
+[31-Jan-2017 21:16:48 CST6CDT] PHP Parse error:  syntax error, unexpected 'try' (T_TRY) in /home/hoitomts/public_html/midwest_force_select/forms.php on line 27
+[31-Jan-2017 21:21:55 CST6CDT] PHP Fatal error:  Uncaught exception 'Elasticsearch\Common\Exceptions\UnexpectedValueException' with message '"body" is not a valid parameter. Allowed parameters are: "consistency", "op_type", "parent", "percolate", "refresh", "replication", "routing", "timeout", "timestamp", "ttl", "version", "version_type", "pipeline", "client", "custom", "filter_path"' in /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/AbstractEndpoint.php:219
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/AbstractEndpoint.php(74): Elasticsearch\Endpoints\AbstractEndpoint->checkUserParams(Array)
+#1 /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Client.php(687): Elasticsearch\Endpoints\AbstractEndpoint->setParams(Array)
+#2 /home/hoitomts/public_html/midwest_force_select/forms.php(28): Elasticsearch\Client->index(Array)
+#3 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/AbstractEndpoint.php on line 219
+[31-Jan-2017 21:36:51 CST6CDT] PHP Fatal error:  Uncaught exception 'Elasticsearch\Common\Exceptions\NoNodesAvailableException' with message 'No alive nodes found in your cluster' in /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/ConnectionPool/StaticNoPingConnectionPool.php:51
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Transport.php(72): Elasticsearch\ConnectionPool\StaticNoPingConnectionPool->nextConnection()
+#1 /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Transport.php(90): Elasticsearch\Transport->getConnection()
+#2 /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/Connection.php(229): Elasticsearch\Transport->performRequest('PUT', '/forms/midwest-...', Array, '{"testField":"a...', Array)
+#3 /home/hoitomts/public_html/midwest_force_select/vendor/react/promise/src/FulfilledPromise.php(25): Elasticsearch\Connecti in /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/ConnectionPool/StaticNoPingConnectionPool.php on line 51
+[31-Jan-2017 21:39:19 CST6CDT] PHP Fatal error:  Uncaught exception 'Elasticsearch\Common\Exceptions\NoNodesAvailableException' with message 'No alive nodes found in your cluster' in /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/ConnectionPool/StaticNoPingConnectionPool.php:51
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Transport.php(72): Elasticsearch\ConnectionPool\StaticNoPingConnectionPool->nextConnection()
+#1 /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Transport.php(90): Elasticsearch\Transport->getConnection()
+#2 /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/Connection.php(229): Elasticsearch\Transport->performRequest('PUT', '/forms/midwest-...', Array, '{"testField":"a...', Array)
+#3 /home/hoitomts/public_html/midwest_force_select/vendor/react/promise/src/FulfilledPromise.php(25): Elasticsearch\Connecti in /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/ConnectionPool/StaticNoPingConnectionPool.php on line 51
+[31-Jan-2017 21:41:32 CST6CDT] PHP Fatal error:  Uncaught exception 'Elasticsearch\Common\Exceptions\NoNodesAvailableException' with message 'No alive nodes found in your cluster' in /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/ConnectionPool/StaticNoPingConnectionPool.php:51
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Transport.php(72): Elasticsearch\ConnectionPool\StaticNoPingConnectionPool->nextConnection()
+#1 /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Transport.php(90): Elasticsearch\Transport->getConnection()
+#2 /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/Connection.php(229): Elasticsearch\Transport->performRequest('PUT', '/forms/midwest-...', Array, '{"testField":"a...', Array)
+#3 /home/hoitomts/public_html/midwest_force_select/vendor/react/promise/src/FulfilledPromise.php(25): Elasticsearch\Connecti in /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/ConnectionPool/StaticNoPingConnectionPool.php on line 51
+[31-Jan-2017 21:47:46 CST6CDT] PHP Parse error:  syntax error, unexpected '}', expecting identifier (T_STRING) in /home/hoitomts/public_html/midwest_force_select/forms.php on line 31
+[31-Jan-2017 21:48:50 CST6CDT] PHP Fatal error:  Uncaught exception 'Elasticsearch\Common\Exceptions\NoNodesAvailableException' with message 'No alive nodes found in your cluster' in /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/ConnectionPool/StaticNoPingConnectionPool.php:51
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Transport.php(72): Elasticsearch\ConnectionPool\StaticNoPingConnectionPool->nextConnection()
+#1 /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Transport.php(90): Elasticsearch\Transport->getConnection()
+#2 /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/Connection.php(229): Elasticsearch\Transport->performRequest('PUT', '/forms/midwest-...', Array, '{"testField":"a...', Array)
+#3 /home/hoitomts/public_html/midwest_force_select/vendor/react/promise/src/FulfilledPromise.php(25): Elasticsearch\Connecti in /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/ConnectionPool/StaticNoPingConnectionPool.php on line 51
+[31-Jan-2017 21:50:41 CST6CDT] PHP Fatal error:  Uncaught exception 'Elasticsearch\Common\Exceptions\NoNodesAvailableException' with message 'No alive nodes found in your cluster' in /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/ConnectionPool/StaticNoPingConnectionPool.php:51
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Transport.php(72): Elasticsearch\ConnectionPool\StaticNoPingConnectionPool->nextConnection()
+#1 /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Transport.php(90): Elasticsearch\Transport->getConnection()
+#2 /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/Connection.php(229): Elasticsearch\Transport->performRequest('PUT', '/forms/midwest-...', Array, '{"testField":"a...', Array)
+#3 /home/hoitomts/public_html/midwest_force_select/vendor/react/promise/src/FulfilledPromise.php(25): Elasticsearch\Connecti in /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/ConnectionPool/StaticNoPingConnectionPool.php on line 51
+[31-Jan-2017 22:05:50 CST6CDT] PHP Fatal error:  Uncaught exception 'Elasticsearch\Common\Exceptions\NoNodesAvailableException' with message 'No alive nodes found in your cluster' in /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/ConnectionPool/StaticNoPingConnectionPool.php:51
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Transport.php(72): Elasticsearch\ConnectionPool\StaticNoPingConnectionPool->nextConnection()
+#1 /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Transport.php(90): Elasticsearch\Transport->getConnection()
+#2 /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/Connection.php(229): Elasticsearch\Transport->performRequest('PUT', '/forms/midwest-...', Array, '{"testField":"a...', Array)
+#3 /home/hoitomts/public_html/midwest_force_select/vendor/react/promise/src/FulfilledPromise.php(25): Elasticsearch\Connecti in /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/ConnectionPool/StaticNoPingConnectionPool.php on line 51
+[01-Feb-2017 10:22:59 CST6CDT] PHP Fatal error:  Uncaught exception 'Elasticsearch\Common\Exceptions\NoNodesAvailableException' with message 'No alive nodes found in your cluster' in /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/ConnectionPool/StaticNoPingConnectionPool.php:51
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Transport.php(72): Elasticsearch\ConnectionPool\StaticNoPingConnectionPool->nextConnection()
+#1 /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Transport.php(90): Elasticsearch\Transport->getConnection()
+#2 /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/Connection.php(229): Elasticsearch\Transport->performRequest('PUT', '/forms/midwest-...', Array, '{"testField":"a...', Array)
+#3 /home/hoitomts/public_html/midwest_force_select/vendor/react/promise/src/FulfilledPromise.php(25): Elasticsearch\Connecti in /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/ConnectionPool/StaticNoPingConnectionPool.php on line 51
+[01-Feb-2017 10:23:02 CST6CDT] PHP Fatal error:  Uncaught exception 'Elasticsearch\Common\Exceptions\NoNodesAvailableException' with message 'No alive nodes found in your cluster' in /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/ConnectionPool/StaticNoPingConnectionPool.php:51
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Transport.php(72): Elasticsearch\ConnectionPool\StaticNoPingConnectionPool->nextConnection()
+#1 /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Transport.php(90): Elasticsearch\Transport->getConnection()
+#2 /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/Connection.php(229): Elasticsearch\Transport->performRequest('PUT', '/forms/midwest-...', Array, '{"testField":"a...', Array)
+#3 /home/hoitomts/public_html/midwest_force_select/vendor/react/promise/src/FulfilledPromise.php(25): Elasticsearch\Connecti in /home/hoitomts/public_html/midwest_force_select/vendor/elasticsearch/elasticsearch/src/Elasticsearch/ConnectionPool/StaticNoPingConnectionPool.php on line 51
+[02-Feb-2017 08:21:25 CST6CDT] PHP Parse error:  syntax error, unexpected ';' in /home/hoitomts/public_html/midwest_force_select/forms.php on line 17
+[02-Feb-2017 08:22:15 CST6CDT] PHP Fatal error:  Class 'Database' not found in /home/hoitomts/public_html/midwest_force_select/forms.php on line 6
+[02-Feb-2017 08:25:46 CST6CDT] PHP Fatal error:  Class 'Database' not found in /home/hoitomts/public_html/midwest_force_select/forms.php on line 4
+[02-Feb-2017 08:26:19 CST6CDT] PHP Fatal error:  Class 'Database' not found in /home/hoitomts/public_html/midwest_force_select/forms.php on line 4
+[02-Feb-2017 08:30:51 CST6CDT] PHP Fatal error:  Function name must be a string in /home/hoitomts/public_html/midwest_force_select/forms.php on line 8
+[02-Feb-2017 08:34:50 CST6CDT] PHP Fatal error:  Function name must be a string in /home/hoitomts/public_html/midwest_force_select/forms.php on line 8
+[02-Feb-2017 08:34:53 CST6CDT] PHP Fatal error:  Function name must be a string in /home/hoitomts/public_html/midwest_force_select/forms.php on line 8
+[02-Feb-2017 08:35:03 CST6CDT] PHP Fatal error:  Function name must be a string in /home/hoitomts/public_html/midwest_force_select/forms.php on line 8
+[02-Feb-2017 08:35:54 CST6CDT] PHP Fatal error:  Function name must be a string in /home/hoitomts/public_html/midwest_force_select/forms.php on line 8
+[02-Feb-2017 08:38:19 CST6CDT] PHP Fatal error:  Array callback has to contain indices 0 and 1 in /home/hoitomts/public_html/midwest_force_select/forms.php on line 9
+[02-Feb-2017 08:39:57 CST6CDT] PHP Fatal error:  Array callback has to contain indices 0 and 1 in /home/hoitomts/public_html/midwest_force_select/forms.php on line 12
+[02-Feb-2017 08:41:32 CST6CDT] PHP Fatal error:  Function name must be a string in /home/hoitomts/public_html/midwest_force_select/forms.php on line 13
+[02-Feb-2017 08:41:57 CST6CDT] PHP Fatal error:  Function name must be a string in /home/hoitomts/public_html/midwest_force_select/forms.php on line 13
+[02-Feb-2017 08:42:40 CST6CDT] PHP Fatal error:  Function name must be a string in /home/hoitomts/public_html/midwest_force_select/forms.php on line 13
+[02-Feb-2017 08:43:33 CST6CDT] PHP Fatal error:  Function name must be a string in /home/hoitomts/public_html/midwest_force_select/forms.php on line 13
+[02-Feb-2017 08:44:03 CST6CDT] PHP Fatal error:  Function name must be a string in /home/hoitomts/public_html/midwest_force_select/forms.php on line 13
+[02-Feb-2017 08:44:36 CST6CDT] PHP Fatal error:  Function name must be a string in /home/hoitomts/public_html/midwest_force_select/forms.php on line 13
+[02-Feb-2017 08:45:45 CST6CDT] PHP Fatal error:  Function name must be a string in /home/hoitomts/public_html/midwest_force_select/forms.php on line 13
+[02-Feb-2017 08:46:02 CST6CDT] PHP Fatal error:  Function name must be a string in /home/hoitomts/public_html/midwest_force_select/forms.php on line 13
+[02-Feb-2017 08:46:23 CST6CDT] PHP Fatal error:  Function name must be a string in /home/hoitomts/public_html/midwest_force_select/forms.php on line 13
+[02-Feb-2017 08:47:24 CST6CDT] PHP Fatal error:  Function name must be a string in /home/hoitomts/public_html/midwest_force_select/forms.php on line 14
+[02-Feb-2017 08:57:34 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'graduation_year' cannot be null' in /home/hoitomts/public_html/midwest_force_select/forms.php:23
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/forms.php(23): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/forms.php on line 23
+[02-Feb-2017 09:01:43 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'graduation_year' cannot be null' in /home/hoitomts/public_html/midwest_force_select/forms.php:23
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/forms.php(23): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/forms.php on line 23
+[02-Feb-2017 09:04:11 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'graduation_year' cannot be null' in /home/hoitomts/public_html/midwest_force_select/forms.php:23
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/forms.php(23): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/forms.php on line 23
+[02-Feb-2017 09:04:36 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'graduation_year' cannot be null' in /home/hoitomts/public_html/midwest_force_select/forms.php:23
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/forms.php(23): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/forms.php on line 23
+[02-Feb-2017 09:06:44 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'graduation_year' cannot be null' in /home/hoitomts/public_html/midwest_force_select/forms.php:23
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/forms.php(23): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/forms.php on line 23
+[02-Feb-2017 09:10:20 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'camp_name' cannot be null' in /home/hoitomts/public_html/midwest_force_select/forms.php:23
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/forms.php(23): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/forms.php on line 23
+[02-Feb-2017 09:12:42 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'camp_name' cannot be null' in /home/hoitomts/public_html/midwest_force_select/forms.php:23
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/forms.php(23): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/forms.php on line 23
+[02-Feb-2017 09:26:20 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'camp_name' cannot be null' in /home/hoitomts/public_html/midwest_force_select/forms.php:23
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/forms.php(23): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/forms.php on line 23
+[02-Feb-2017 21:37:57 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'camp_name' cannot be null' in /home/hoitomts/public_html/midwest_force_select/forms.php:23
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/forms.php(23): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/forms.php on line 23
+[20-Feb-2017 12:15:42 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 't_shirt_size' cannot be null' in /home/hoitomts/public_html/midwest_force_select/forms.php:23
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/forms.php(23): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/forms.php on line 23
+[20-Feb-2017 12:34:37 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 't_shirt_size' cannot be null' in /home/hoitomts/public_html/midwest_force_select/camp-registration.php:24
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/camp-registration.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/camp-registration.php on line 24
+[20-Feb-2017 12:35:37 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 't_shirt_size' cannot be null' in /home/hoitomts/public_html/midwest_force_select/camp-registration.php:24
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/camp-registration.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/camp-registration.php on line 24
+[20-Feb-2017 16:25:33 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 't_shirt_size' cannot be null' in /home/hoitomts/public_html/midwest_force_select/camp-registration.php:24
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/camp-registration.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/camp-registration.php on line 24
+[20-Feb-2017 16:25:46 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 't_shirt_size' cannot be null' in /home/hoitomts/public_html/midwest_force_select/forms.php:23
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/forms.php(23): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/forms.php on line 23
+[21-Feb-2017 10:00:19 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 't_shirt_size' cannot be null' in /home/hoitomts/public_html/midwest_force_select/camp-registration.php:24
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/camp-registration.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/camp-registration.php on line 24
+[23-Feb-2017 14:15:35 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 't_shirt_size' cannot be null' in /home/hoitomts/public_html/midwest_force_select/camp-registration.php:24
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/camp-registration.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/camp-registration.php on line 24
+[27-Feb-2017 20:05:18 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 't_shirt_size' cannot be null' in /home/hoitomts/public_html/midwest_force_select/camp-registration.php:24
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/camp-registration.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/camp-registration.php on line 24
+[27-Feb-2017 20:23:33 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 't_shirt_size' cannot be null' in /home/hoitomts/public_html/midwest_force_select/camp-registration.php:24
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/camp-registration.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/camp-registration.php on line 24
+[03-Mar-2017 11:58:37 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 't_shirt_size' cannot be null' in /home/hoitomts/public_html/midwest_force_select/forms.php:23
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/forms.php(23): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/forms.php on line 23
+[05-Mar-2017 06:57:36 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 't_shirt_size' cannot be null' in /home/hoitomts/public_html/midwest_force_select/camp-registration.php:24
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/camp-registration.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/camp-registration.php on line 24
+[05-Mar-2017 21:01:40 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 't_shirt_size' cannot be null' in /home/hoitomts/public_html/midwest_force_select/camp-registration.php:24
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/camp-registration.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/camp-registration.php on line 24
+[07-Mar-2017 20:04:05 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 't_shirt_size' cannot be null' in /home/hoitomts/public_html/midwest_force_select/camp-registration.php:24
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/camp-registration.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/camp-registration.php on line 24
+[09-Mar-2017 07:52:20 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 't_shirt_size' cannot be null' in /home/hoitomts/public_html/midwest_force_select/camp-registration.php:24
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/camp-registration.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/camp-registration.php on line 24
+[10-Mar-2017 14:15:18 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 't_shirt_size' cannot be null' in /home/hoitomts/public_html/midwest_force_select/camp-registration.php:24
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/camp-registration.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/camp-registration.php on line 24
+[13-Mar-2017 14:18:24 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 't_shirt_size' cannot be null' in /home/hoitomts/public_html/midwest_force_select/camp-registration.php:24
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/camp-registration.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/camp-registration.php on line 24
+[14-Mar-2017 12:58:24 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 't_shirt_size' cannot be null' in /home/hoitomts/public_html/midwest_force_select/camp-registration.php:24
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/camp-registration.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/camp-registration.php on line 24
+[23-Mar-2017 06:15:21 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 't_shirt_size' cannot be null' in /home/hoitomts/public_html/midwest_force_select/camp-registration.php:24
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/camp-registration.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/camp-registration.php on line 24
+[23-Mar-2017 18:49:12 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 't_shirt_size' cannot be null' in /home/hoitomts/public_html/midwest_force_select/camp-registration.php:24
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/camp-registration.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/camp-registration.php on line 24
+[23-Mar-2017 18:53:22 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/hoitomts/public_html/midwest_force_select/camp-registration.php:23
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/camp-registration.php(23): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/camp-registration.php on line 23
+[23-Mar-2017 18:55:07 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1' in /home/hoitomts/public_html/midwest_force_select/camp-registration.php:23
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/camp-registration.php(23): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/camp-registration.php on line 23
+[23-Mar-2017 19:00:09 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 't_shirt_size' cannot be null' in /home/hoitomts/public_html/midwest_force_select/forms.php:23
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/forms.php(23): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/forms.php on line 23
+[28-Mar-2017 21:52:21 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 't_shirt_size' cannot be null' in /home/hoitomts/public_html/midwest_force_select/forms.php:23
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/forms.php(23): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/forms.php on line 23
+[19-Apr-2017 07:04:50 CST6CDT] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Invalid integer: NaN' in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php:110 from API request 'req_AVI8tS0H2XUOPN'
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/Charge.php(73): Stripe\ApiResource::_create(Array, NUL in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php on line 110
+[21-Apr-2017 10:58:10 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 't_shirt_size' cannot be null' in /home/hoitomts/public_html/midwest_force_select/forms.php:23
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/forms.php(23): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/forms.php on line 23
+[26-Apr-2017 20:49:32 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'camp_name' cannot be null' in /home/hoitomts/public_html/midwest_force_select/camp-registration.php:23
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/camp-registration.php(23): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/camp-registration.php on line 23
+[26-Apr-2017 20:49:34 CST6CDT] PHP Fatal error:  Uncaught exception 'Stripe\Error\Card' with message 'Cannot charge a customer that has no active card' in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php:114 from API request 'req_AY81OnJIR11cD0'
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 402, Array, Array)
+#1 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 402, Array)
+#2 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/Charge.php(73): Stripe\ApiResource:: in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php on line 114
+[12-May-2017 20:20:21 CST6CDT] PHP Fatal error:  Uncaught exception 'Stripe\Error\Card' with message 'Cannot charge a customer that has no active card' in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php:114 from API request 'req_Ae7AajQ06XdMsY'
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 402, Array, Array)
+#1 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 402, Array)
+#2 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/Charge.php(73): Stripe\ApiResource:: in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php on line 114
+[12-May-2017 20:20:28 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'camp_name' cannot be null' in /home/hoitomts/public_html/midwest_force_select/camp-registration.php:23
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/camp-registration.php(23): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/camp-registration.php on line 23
+[18-May-2017 07:01:12 CST6CDT] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'No such token: tok_1AKnJZAeR2y65X4l3N4wM5ZB; a similar object exists in test mode, but a live mode key was used to make this request.' in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php:110 from API request 'req_Ag9cDrKoYfQ1pq'
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+#3 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+#4 /home/ in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php on line 110
+[24-May-2017 08:48:47 CST6CDT] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Invalid email address: tsleece@gmail.com & wesman@charter.com' in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php:110 from API request 'req_AiQiEbKlyUZwTH'
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/Charge.php(73 in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php on line 110
+[20-Jul-2017 21:21:26 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'camp_name' cannot be null' in /home/hoitomts/public_html/midwest_force_select/forms.php:23
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/forms.php(23): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/forms.php on line 23
+[21-Jul-2017 07:25:45 CST6CDT] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'No such token: tok_1Ai0CPAeR2y65X4lTuJMCSpC' in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php:110 from API request 'req_B48TFm3ci26RiT'
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+#3 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+#4 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/Customer.php(59): Stripe\Ap in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php on line 110
+[27-Jul-2017 17:05:51 CST6CDT] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'No such token: tok_1AkK76AeR2y65X4lrEdZCyMN' in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php:110 from API request 'req_BCNUcpXH9qClfx'
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+#3 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+#4 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/Customer.php(59): Stripe\Ap in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php on line 110
+[28-Jul-2017 07:51:56 CST6CDT] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'No such token: tok_1AkXwbAeR2y65X4lUhuJ2MQm' in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php:110 from API request 'req_L6Hxz8wocYwhYy'
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+#3 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+#4 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/Customer.php(59): Stripe\Ap in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php on line 110
+[28-Jul-2017 07:52:33 CST6CDT] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'No such token: tok_1AkXxCAeR2y65X4ld8nam87L' in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php:110 from API request 'req_k6R1PzUCSEGlwa'
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+#3 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+#4 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/Customer.php(59): Stripe\Ap in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php on line 110
+[30-Jul-2017 21:11:16 CST6CDT] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'No such token: tok_1AlTNFAeR2y65X4lihb3YVP8' in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php:110 from API request 'req_zde75cF8Dh1hCp'
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+#3 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+#4 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/Customer.php(59): Stripe\Ap in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php on line 110
+[30-Jul-2017 21:13:05 CST6CDT] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'No such token: tok_1AlTP0AeR2y65X4lDxrIjo4O' in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php:110 from API request 'req_I8b6GFkBhwYLPt'
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+#3 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+#4 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/Customer.php(59): Stripe\Ap in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php on line 110
+[31-Jul-2017 22:47:15 CST6CDT] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'No such token: tok_1AlrLfAeR2y65X4lDjlypaLm' in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php:110 from API request 'req_0hzHUvBsJVhYMw'
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+#3 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+#4 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/Customer.php(59): Stripe\Ap in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php on line 110
+[03-Aug-2017 16:46:50 CST6CDT] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'No such token: tok_1Amr9XAeR2y65X4lPm5yhyuQ' in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php:110 from API request 'req_xwaEowfKKFpCJ7'
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+#3 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+#4 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/Customer.php(59): Stripe\Ap in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php on line 110
+[06-Aug-2017 10:50:44 CST6CDT] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'No such token: tok_1Anr1aAeR2y65X4lB1PSkO6a' in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php:110 from API request 'req_yM1oVqtoyvqbSf'
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+#3 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+#4 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/Customer.php(59): Stripe\Ap in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php on line 110
+[06-Aug-2017 18:49:49 CST6CDT] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'No such token: tok_1AnyVCAeR2y65X4lNX3eREOv' in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php:110 from API request 'req_34E6NoT1pQrQGA'
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+#3 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+#4 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/Customer.php(59): Stripe\Ap in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php on line 110
+[06-Aug-2017 18:53:51 CST6CDT] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'No such token: tok_1AnyZ5AeR2y65X4ljmYIZQbZ' in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php:110 from API request 'req_OXUdwa2jHq9QJQ'
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+#3 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+#4 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/Customer.php(59): Stripe\Ap in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php on line 110
+[06-Aug-2017 18:58:01 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 't_shirt_size' cannot be null' in /home/hoitomts/public_html/midwest_force_select/forms.php:23
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/forms.php(23): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/forms.php on line 23
+[06-Aug-2017 21:11:54 CST6CDT] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'No such token: tok_1Ao0ihAeR2y65X4lkXycvFU9' in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php:110 from API request 'req_zpzG5npZFftHKT'
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+#3 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+#4 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/Customer.php(59): Stripe\Ap in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php on line 110
+[06-Aug-2017 21:12:56 CST6CDT] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'No such token: tok_1Ao0jhAeR2y65X4lxHiNsy3f' in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php:110 from API request 'req_x1kd7yWeeD6I7b'
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+#3 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+#4 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/Customer.php(59): Stripe\Ap in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php on line 110
+[06-Aug-2017 21:41:51 CST6CDT] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'No such token: tok_1Ao1BgAeR2y65X4lkbP84KkJ' in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php:110 from API request 'req_dye1lVOsfrHFlW'
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+#3 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+#4 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/Customer.php(59): Stripe\Ap in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php on line 110
+[06-Aug-2017 21:42:47 CST6CDT] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'No such token: tok_1Ao1CaAeR2y65X4lefVLgRQw' in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php:110 from API request 'req_oGIU36a4v8T1LA'
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+#3 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+#4 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/Customer.php(59): Stripe\Ap in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php on line 110
+[06-Aug-2017 21:46:06 CST6CDT] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'No such token: tok_1Ao1FnAeR2y65X4lvr0cZmyh' in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php:110 from API request 'req_UaQjy3oGqPDp1E'
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+#3 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+#4 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/Customer.php(59): Stripe\Ap in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php on line 110
+[07-Aug-2017 13:06:39 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'camp_name' cannot be null' in /home/hoitomts/public_html/midwest_force_select/forms.php:22
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/forms.php(22): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/forms.php on line 22
+[07-Aug-2017 13:07:30 CST6CDT] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Amount must be at least 50 cents' in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php:110 from API request 'req_e21ryrBNEdnZNG'
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/Charge.php(73): Stripe\ApiResource::_creat in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php on line 110
+[21-Aug-2017 11:43:18 CST6CDT] PHP Fatal error:  Uncaught exception 'Stripe\Error\Card' with message 'Cannot charge a customer that has no active card' in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php:114 from API request 'req_8SSlB5MDBrjmD2'
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 402, Array, Array)
+#1 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 402, Array)
+#2 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/Charge.php(73): Stripe\ApiResource:: in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php on line 114

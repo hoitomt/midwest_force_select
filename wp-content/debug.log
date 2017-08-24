@@ -1,0 +1,931 @@
+[22-Jul-2017 04:59:34 UTC] jp-sitemap-ROO4S: -- Updating...
+[22-Jul-2017 04:59:34 UTC] jp-sitemap-ROO4S: -- Building sitemap-1.xml
+[22-Jul-2017 04:59:34 UTC] jp-sitemap-ROO4S: -- Cleaning Up jp_sitemap
+[22-Jul-2017 04:59:34 UTC] jp-sitemap-ROO4S: -- Cleaning Up jp_sitemap_index
+[22-Jul-2017 04:59:34 UTC] jp-sitemap-ROO4S: -- Building image-sitemap-1.xml
+[22-Jul-2017 04:59:34 UTC] jp-sitemap-ROO4S: -- Cleaning Up jp_img_sitemap
+[22-Jul-2017 04:59:34 UTC] jp-sitemap-ROO4S: -- Cleaning Up jp_img_sitemap_index
+[22-Jul-2017 04:59:34 UTC] jp-sitemap-ROO4S: -- Building video-sitemap-1.xml
+[22-Jul-2017 04:59:34 UTC] jp-sitemap-ROO4S: -- Cleaning Up jp_vid_sitemap
+[22-Jul-2017 04:59:34 UTC] jp-sitemap-ROO4S: -- Cleaning Up jp_vid_sitemap_index
+[22-Jul-2017 04:59:34 UTC] jp-sitemap-ROO4S: -- Building Master Sitemap.
+[22-Jul-2017 04:59:34 UTC] jp-sitemap-ROO4S: -- Finished.
+[22-Jul-2017 04:59:34 UTC] jp-sitemap-ROO4S:  0.26 seconds elapsed.
+[22-Jul-2017 10:25:16 UTC] jp-sitemap-TUZ1l: Beginning news sitemap generation.
+[22-Jul-2017 10:25:16 UTC] jp-sitemap-TUZ1l: End news sitemap generation. 0.008 seconds elapsed.
+[22-Jul-2017 17:14:11 UTC] jp-sitemap-kre1b: -- Updating...
+[22-Jul-2017 17:14:11 UTC] jp-sitemap-kre1b: -- Building sitemap-1.xml
+[22-Jul-2017 17:14:11 UTC] jp-sitemap-kre1b: -- Cleaning Up jp_sitemap
+[22-Jul-2017 17:14:11 UTC] jp-sitemap-kre1b: -- Cleaning Up jp_sitemap_index
+[22-Jul-2017 17:14:11 UTC] jp-sitemap-kre1b: -- Building image-sitemap-1.xml
+[22-Jul-2017 17:14:11 UTC] jp-sitemap-kre1b: -- Cleaning Up jp_img_sitemap
+[22-Jul-2017 17:14:11 UTC] jp-sitemap-kre1b: -- Cleaning Up jp_img_sitemap_index
+[22-Jul-2017 17:14:11 UTC] jp-sitemap-kre1b: -- Building video-sitemap-1.xml
+[22-Jul-2017 17:14:11 UTC] jp-sitemap-kre1b: -- Cleaning Up jp_vid_sitemap
+[22-Jul-2017 17:14:11 UTC] jp-sitemap-kre1b: -- Cleaning Up jp_vid_sitemap_index
+[22-Jul-2017 17:14:11 UTC] jp-sitemap-kre1b: -- Building Master Sitemap.
+[22-Jul-2017 17:14:11 UTC] jp-sitemap-kre1b: -- Finished.
+[22-Jul-2017 17:14:11 UTC] jp-sitemap-kre1b:  0.287 seconds elapsed.
+[22-Jul-2017 23:20:11 UTC] jp-sitemap-5rhXL: Beginning news sitemap generation.
+[22-Jul-2017 23:20:11 UTC] jp-sitemap-5rhXL: End news sitemap generation. 0.008 seconds elapsed.
+[23-Jul-2017 05:42:48 UTC] jp-sitemap-3XWbC: -- Updating...
+[23-Jul-2017 05:42:48 UTC] jp-sitemap-3XWbC: -- Building sitemap-1.xml
+[23-Jul-2017 05:42:48 UTC] jp-sitemap-3XWbC: -- Cleaning Up jp_sitemap
+[23-Jul-2017 05:42:48 UTC] jp-sitemap-3XWbC: -- Cleaning Up jp_sitemap_index
+[23-Jul-2017 05:42:48 UTC] jp-sitemap-3XWbC: -- Building image-sitemap-1.xml
+[23-Jul-2017 05:42:48 UTC] jp-sitemap-3XWbC: -- Cleaning Up jp_img_sitemap
+[23-Jul-2017 05:42:48 UTC] jp-sitemap-3XWbC: -- Cleaning Up jp_img_sitemap_index
+[23-Jul-2017 05:42:48 UTC] jp-sitemap-3XWbC: -- Building video-sitemap-1.xml
+[23-Jul-2017 05:42:48 UTC] jp-sitemap-3XWbC: -- Cleaning Up jp_vid_sitemap
+[23-Jul-2017 05:42:48 UTC] jp-sitemap-3XWbC: -- Cleaning Up jp_vid_sitemap_index
+[23-Jul-2017 05:42:48 UTC] jp-sitemap-3XWbC: -- Building Master Sitemap.
+[23-Jul-2017 05:42:48 UTC] jp-sitemap-3XWbC: -- Finished.
+[23-Jul-2017 05:42:48 UTC] jp-sitemap-3XWbC:  0.248 seconds elapsed.
+[23-Jul-2017 16:49:55 UTC] jp-sitemap-O4ekn: -- Updating...
+[23-Jul-2017 16:49:55 UTC] jp-sitemap-O4ekn: -- Building sitemap-1.xml
+[23-Jul-2017 16:49:55 UTC] jp-sitemap-O4ekn: -- Cleaning Up jp_sitemap
+[23-Jul-2017 16:49:55 UTC] jp-sitemap-O4ekn: -- Cleaning Up jp_sitemap_index
+[23-Jul-2017 16:49:55 UTC] jp-sitemap-O4ekn: -- Building image-sitemap-1.xml
+[23-Jul-2017 16:49:56 UTC] jp-sitemap-O4ekn: -- Cleaning Up jp_img_sitemap
+[23-Jul-2017 16:49:56 UTC] jp-sitemap-O4ekn: -- Cleaning Up jp_img_sitemap_index
+[23-Jul-2017 16:49:56 UTC] jp-sitemap-O4ekn: -- Building video-sitemap-1.xml
+[23-Jul-2017 16:49:56 UTC] jp-sitemap-O4ekn: -- Cleaning Up jp_vid_sitemap
+[23-Jul-2017 16:49:56 UTC] jp-sitemap-O4ekn: -- Cleaning Up jp_vid_sitemap_index
+[23-Jul-2017 16:49:56 UTC] jp-sitemap-O4ekn: -- Building Master Sitemap.
+[23-Jul-2017 16:49:56 UTC] jp-sitemap-O4ekn: -- Finished.
+[23-Jul-2017 16:49:56 UTC] jp-sitemap-O4ekn:  0.269 seconds elapsed.
+[23-Jul-2017 20:58:27 UTC] jp-sitemap-ngiPV: Beginning news sitemap generation.
+[23-Jul-2017 20:58:27 UTC] jp-sitemap-ngiPV: End news sitemap generation. 0.006 seconds elapsed.
+[24-Jul-2017 04:50:14 UTC] jp-sitemap-iyCcc: -- Updating...
+[24-Jul-2017 04:50:14 UTC] jp-sitemap-iyCcc: -- Building sitemap-1.xml
+[24-Jul-2017 04:50:14 UTC] jp-sitemap-iyCcc: -- Cleaning Up jp_sitemap
+[24-Jul-2017 04:50:14 UTC] jp-sitemap-iyCcc: -- Cleaning Up jp_sitemap_index
+[24-Jul-2017 04:50:14 UTC] jp-sitemap-iyCcc: -- Building image-sitemap-1.xml
+[24-Jul-2017 04:50:14 UTC] jp-sitemap-iyCcc: -- Cleaning Up jp_img_sitemap
+[24-Jul-2017 04:50:14 UTC] jp-sitemap-iyCcc: -- Cleaning Up jp_img_sitemap_index
+[24-Jul-2017 04:50:14 UTC] jp-sitemap-iyCcc: -- Building video-sitemap-1.xml
+[24-Jul-2017 04:50:14 UTC] jp-sitemap-iyCcc: -- Cleaning Up jp_vid_sitemap
+[24-Jul-2017 04:50:14 UTC] jp-sitemap-iyCcc: -- Cleaning Up jp_vid_sitemap_index
+[24-Jul-2017 04:50:14 UTC] jp-sitemap-iyCcc: -- Building Master Sitemap.
+[24-Jul-2017 04:50:14 UTC] jp-sitemap-iyCcc: -- Finished.
+[24-Jul-2017 04:50:14 UTC] jp-sitemap-iyCcc:  0.337 seconds elapsed.
+[24-Jul-2017 11:33:07 UTC] jp-sitemap-g1c7z: Beginning news sitemap generation.
+[24-Jul-2017 11:33:07 UTC] jp-sitemap-g1c7z: End news sitemap generation. 0.005 seconds elapsed.
+[24-Jul-2017 16:58:53 UTC] jp-sitemap-c3BB5: -- Updating...
+[24-Jul-2017 16:58:53 UTC] jp-sitemap-c3BB5: -- Building sitemap-1.xml
+[24-Jul-2017 16:58:53 UTC] jp-sitemap-c3BB5: -- Cleaning Up jp_sitemap
+[24-Jul-2017 16:58:53 UTC] jp-sitemap-c3BB5: -- Cleaning Up jp_sitemap_index
+[24-Jul-2017 16:58:53 UTC] jp-sitemap-c3BB5: -- Building image-sitemap-1.xml
+[24-Jul-2017 16:58:53 UTC] jp-sitemap-c3BB5: -- Cleaning Up jp_img_sitemap
+[24-Jul-2017 16:58:53 UTC] jp-sitemap-c3BB5: -- Cleaning Up jp_img_sitemap_index
+[24-Jul-2017 16:58:53 UTC] jp-sitemap-c3BB5: -- Building video-sitemap-1.xml
+[24-Jul-2017 16:58:53 UTC] jp-sitemap-c3BB5: -- Cleaning Up jp_vid_sitemap
+[24-Jul-2017 16:58:53 UTC] jp-sitemap-c3BB5: -- Cleaning Up jp_vid_sitemap_index
+[24-Jul-2017 16:58:53 UTC] jp-sitemap-c3BB5: -- Building Master Sitemap.
+[24-Jul-2017 16:58:53 UTC] jp-sitemap-c3BB5: -- Finished.
+[24-Jul-2017 16:58:53 UTC] jp-sitemap-c3BB5:  0.365 seconds elapsed.
+[25-Jul-2017 05:00:29 UTC] jp-sitemap-mMAcH: -- Updating...
+[25-Jul-2017 05:00:29 UTC] jp-sitemap-mMAcH: -- Building sitemap-1.xml
+[25-Jul-2017 05:00:29 UTC] jp-sitemap-mMAcH: -- Cleaning Up jp_sitemap
+[25-Jul-2017 05:00:29 UTC] jp-sitemap-mMAcH: -- Cleaning Up jp_sitemap_index
+[25-Jul-2017 05:00:29 UTC] jp-sitemap-mMAcH: -- Building image-sitemap-1.xml
+[25-Jul-2017 05:00:29 UTC] jp-sitemap-mMAcH: -- Cleaning Up jp_img_sitemap
+[25-Jul-2017 05:00:29 UTC] jp-sitemap-mMAcH: -- Cleaning Up jp_img_sitemap_index
+[25-Jul-2017 05:00:29 UTC] jp-sitemap-mMAcH: -- Building video-sitemap-1.xml
+[25-Jul-2017 05:00:29 UTC] jp-sitemap-mMAcH: -- Cleaning Up jp_vid_sitemap
+[25-Jul-2017 05:00:29 UTC] jp-sitemap-mMAcH: -- Cleaning Up jp_vid_sitemap_index
+[25-Jul-2017 05:00:29 UTC] jp-sitemap-mMAcH: -- Building Master Sitemap.
+[25-Jul-2017 05:00:29 UTC] jp-sitemap-mMAcH: -- Finished.
+[25-Jul-2017 05:00:29 UTC] jp-sitemap-mMAcH:  0.514 seconds elapsed.
+[25-Jul-2017 16:44:03 UTC] jp-sitemap-P4z9T: -- Updating...
+[25-Jul-2017 16:44:03 UTC] jp-sitemap-P4z9T: -- Building sitemap-1.xml
+[25-Jul-2017 16:44:03 UTC] jp-sitemap-P4z9T: -- Cleaning Up jp_sitemap
+[25-Jul-2017 16:44:03 UTC] jp-sitemap-P4z9T: -- Cleaning Up jp_sitemap_index
+[25-Jul-2017 16:44:03 UTC] jp-sitemap-P4z9T: -- Building image-sitemap-1.xml
+[25-Jul-2017 16:44:03 UTC] jp-sitemap-P4z9T: -- Cleaning Up jp_img_sitemap
+[25-Jul-2017 16:44:03 UTC] jp-sitemap-P4z9T: -- Cleaning Up jp_img_sitemap_index
+[25-Jul-2017 16:44:03 UTC] jp-sitemap-P4z9T: -- Building video-sitemap-1.xml
+[25-Jul-2017 16:44:03 UTC] jp-sitemap-P4z9T: -- Cleaning Up jp_vid_sitemap
+[25-Jul-2017 16:44:03 UTC] jp-sitemap-P4z9T: -- Cleaning Up jp_vid_sitemap_index
+[25-Jul-2017 16:44:03 UTC] jp-sitemap-P4z9T: -- Building Master Sitemap.
+[25-Jul-2017 16:44:03 UTC] jp-sitemap-P4z9T: -- Finished.
+[25-Jul-2017 16:44:03 UTC] jp-sitemap-P4z9T:  0.239 seconds elapsed.
+[25-Jul-2017 21:51:11 UTC] jp-sitemap-Pjfxx: Beginning news sitemap generation.
+[25-Jul-2017 21:51:11 UTC] jp-sitemap-Pjfxx: End news sitemap generation. 0.016 seconds elapsed.
+[26-Jul-2017 04:49:24 UTC] jp-sitemap-njFh3: -- Updating...
+[26-Jul-2017 04:49:24 UTC] jp-sitemap-njFh3: -- Building sitemap-1.xml
+[26-Jul-2017 04:49:24 UTC] jp-sitemap-njFh3: -- Cleaning Up jp_sitemap
+[26-Jul-2017 04:49:24 UTC] jp-sitemap-njFh3: -- Cleaning Up jp_sitemap_index
+[26-Jul-2017 04:49:24 UTC] jp-sitemap-njFh3: -- Building image-sitemap-1.xml
+[26-Jul-2017 04:49:24 UTC] jp-sitemap-njFh3: -- Cleaning Up jp_img_sitemap
+[26-Jul-2017 04:49:24 UTC] jp-sitemap-njFh3: -- Cleaning Up jp_img_sitemap_index
+[26-Jul-2017 04:49:24 UTC] jp-sitemap-njFh3: -- Building video-sitemap-1.xml
+[26-Jul-2017 04:49:24 UTC] jp-sitemap-njFh3: -- Cleaning Up jp_vid_sitemap
+[26-Jul-2017 04:49:24 UTC] jp-sitemap-njFh3: -- Cleaning Up jp_vid_sitemap_index
+[26-Jul-2017 04:49:24 UTC] jp-sitemap-njFh3: -- Building Master Sitemap.
+[26-Jul-2017 04:49:24 UTC] jp-sitemap-njFh3: -- Finished.
+[26-Jul-2017 04:49:24 UTC] jp-sitemap-njFh3:  0.411 seconds elapsed.
+[26-Jul-2017 17:18:57 UTC] jp-sitemap-8f0ou: -- Updating...
+[26-Jul-2017 17:18:57 UTC] jp-sitemap-8f0ou: -- Building sitemap-1.xml
+[26-Jul-2017 17:18:57 UTC] jp-sitemap-8f0ou: -- Cleaning Up jp_sitemap
+[26-Jul-2017 17:18:57 UTC] jp-sitemap-8f0ou: -- Cleaning Up jp_sitemap_index
+[26-Jul-2017 17:18:57 UTC] jp-sitemap-8f0ou: -- Building image-sitemap-1.xml
+[26-Jul-2017 17:18:57 UTC] jp-sitemap-8f0ou: -- Cleaning Up jp_img_sitemap
+[26-Jul-2017 17:18:57 UTC] jp-sitemap-8f0ou: -- Cleaning Up jp_img_sitemap_index
+[26-Jul-2017 17:18:57 UTC] jp-sitemap-8f0ou: -- Building video-sitemap-1.xml
+[26-Jul-2017 17:18:57 UTC] jp-sitemap-8f0ou: -- Cleaning Up jp_vid_sitemap
+[26-Jul-2017 17:18:57 UTC] jp-sitemap-8f0ou: -- Cleaning Up jp_vid_sitemap_index
+[26-Jul-2017 17:18:57 UTC] jp-sitemap-8f0ou: -- Building Master Sitemap.
+[26-Jul-2017 17:18:57 UTC] jp-sitemap-8f0ou: -- Finished.
+[26-Jul-2017 17:18:57 UTC] jp-sitemap-8f0ou:  0.293 seconds elapsed.
+[27-Jul-2017 03:46:44 UTC] jp-sitemap-cQQqn: Beginning news sitemap generation.
+[27-Jul-2017 03:46:44 UTC] jp-sitemap-cQQqn: End news sitemap generation. 0.007 seconds elapsed.
+[27-Jul-2017 05:04:00 UTC] jp-sitemap-ijQ3z: -- Updating...
+[27-Jul-2017 05:04:00 UTC] jp-sitemap-ijQ3z: -- Building sitemap-1.xml
+[27-Jul-2017 05:04:00 UTC] jp-sitemap-ijQ3z: -- Cleaning Up jp_sitemap
+[27-Jul-2017 05:04:00 UTC] jp-sitemap-ijQ3z: -- Cleaning Up jp_sitemap_index
+[27-Jul-2017 05:04:00 UTC] jp-sitemap-ijQ3z: -- Building image-sitemap-1.xml
+[27-Jul-2017 05:04:00 UTC] jp-sitemap-ijQ3z: -- Cleaning Up jp_img_sitemap
+[27-Jul-2017 05:04:00 UTC] jp-sitemap-ijQ3z: -- Cleaning Up jp_img_sitemap_index
+[27-Jul-2017 05:04:00 UTC] jp-sitemap-ijQ3z: -- Building video-sitemap-1.xml
+[27-Jul-2017 05:04:00 UTC] jp-sitemap-ijQ3z: -- Cleaning Up jp_vid_sitemap
+[27-Jul-2017 05:04:00 UTC] jp-sitemap-ijQ3z: -- Cleaning Up jp_vid_sitemap_index
+[27-Jul-2017 05:04:01 UTC] jp-sitemap-ijQ3z: -- Building Master Sitemap.
+[27-Jul-2017 05:04:01 UTC] jp-sitemap-ijQ3z: -- Finished.
+[27-Jul-2017 05:04:01 UTC] jp-sitemap-ijQ3z:  0.304 seconds elapsed.
+[27-Jul-2017 17:06:42 UTC] jp-sitemap-hfD0B: -- Updating...
+[27-Jul-2017 17:06:42 UTC] jp-sitemap-hfD0B: -- Building sitemap-1.xml
+[27-Jul-2017 17:06:42 UTC] jp-sitemap-hfD0B: -- Cleaning Up jp_sitemap
+[27-Jul-2017 17:06:42 UTC] jp-sitemap-hfD0B: -- Cleaning Up jp_sitemap_index
+[27-Jul-2017 17:06:42 UTC] jp-sitemap-hfD0B: -- Building image-sitemap-1.xml
+[27-Jul-2017 17:06:42 UTC] jp-sitemap-hfD0B: -- Cleaning Up jp_img_sitemap
+[27-Jul-2017 17:06:42 UTC] jp-sitemap-hfD0B: -- Cleaning Up jp_img_sitemap_index
+[27-Jul-2017 17:06:42 UTC] jp-sitemap-hfD0B: -- Building video-sitemap-1.xml
+[27-Jul-2017 17:06:42 UTC] jp-sitemap-hfD0B: -- Cleaning Up jp_vid_sitemap
+[27-Jul-2017 17:06:42 UTC] jp-sitemap-hfD0B: -- Cleaning Up jp_vid_sitemap_index
+[27-Jul-2017 17:06:42 UTC] jp-sitemap-hfD0B: -- Building Master Sitemap.
+[27-Jul-2017 17:06:42 UTC] jp-sitemap-hfD0B: -- Finished.
+[27-Jul-2017 17:06:42 UTC] jp-sitemap-hfD0B:  0.264 seconds elapsed.
+[28-Jul-2017 01:46:36 UTC] jp-sitemap-EQYBb: Beginning news sitemap generation.
+[28-Jul-2017 01:46:36 UTC] jp-sitemap-EQYBb: End news sitemap generation. 0.007 seconds elapsed.
+[28-Jul-2017 05:16:29 UTC] jp-sitemap-1Yzgj: -- Updating...
+[28-Jul-2017 05:16:29 UTC] jp-sitemap-1Yzgj: -- Building sitemap-1.xml
+[28-Jul-2017 05:16:29 UTC] jp-sitemap-1Yzgj: -- Cleaning Up jp_sitemap
+[28-Jul-2017 05:16:29 UTC] jp-sitemap-1Yzgj: -- Cleaning Up jp_sitemap_index
+[28-Jul-2017 05:16:29 UTC] jp-sitemap-1Yzgj: -- Building image-sitemap-1.xml
+[28-Jul-2017 05:16:29 UTC] jp-sitemap-1Yzgj: -- Cleaning Up jp_img_sitemap
+[28-Jul-2017 05:16:29 UTC] jp-sitemap-1Yzgj: -- Cleaning Up jp_img_sitemap_index
+[28-Jul-2017 05:16:29 UTC] jp-sitemap-1Yzgj: -- Building video-sitemap-1.xml
+[28-Jul-2017 05:16:29 UTC] jp-sitemap-1Yzgj: -- Cleaning Up jp_vid_sitemap
+[28-Jul-2017 05:16:29 UTC] jp-sitemap-1Yzgj: -- Cleaning Up jp_vid_sitemap_index
+[28-Jul-2017 05:16:29 UTC] jp-sitemap-1Yzgj: -- Building Master Sitemap.
+[28-Jul-2017 05:16:29 UTC] jp-sitemap-1Yzgj: -- Finished.
+[28-Jul-2017 05:16:29 UTC] jp-sitemap-1Yzgj:  0.273 seconds elapsed.
+[28-Jul-2017 17:05:24 UTC] jp-sitemap-vLfJr: -- Updating...
+[28-Jul-2017 17:05:24 UTC] jp-sitemap-vLfJr: -- Building sitemap-1.xml
+[28-Jul-2017 17:05:24 UTC] jp-sitemap-vLfJr: -- Cleaning Up jp_sitemap
+[28-Jul-2017 17:05:24 UTC] jp-sitemap-vLfJr: -- Cleaning Up jp_sitemap_index
+[28-Jul-2017 17:05:24 UTC] jp-sitemap-vLfJr: -- Building image-sitemap-1.xml
+[28-Jul-2017 17:05:24 UTC] jp-sitemap-vLfJr: -- Cleaning Up jp_img_sitemap
+[28-Jul-2017 17:05:24 UTC] jp-sitemap-vLfJr: -- Cleaning Up jp_img_sitemap_index
+[28-Jul-2017 17:05:24 UTC] jp-sitemap-vLfJr: -- Building video-sitemap-1.xml
+[28-Jul-2017 17:05:24 UTC] jp-sitemap-vLfJr: -- Cleaning Up jp_vid_sitemap
+[28-Jul-2017 17:05:24 UTC] jp-sitemap-vLfJr: -- Cleaning Up jp_vid_sitemap_index
+[28-Jul-2017 17:05:24 UTC] jp-sitemap-vLfJr: -- Building Master Sitemap.
+[28-Jul-2017 17:05:24 UTC] jp-sitemap-vLfJr: -- Finished.
+[28-Jul-2017 17:05:24 UTC] jp-sitemap-vLfJr:  0.334 seconds elapsed.
+[29-Jul-2017 04:55:26 UTC] jp-sitemap-DazOr: -- Updating...
+[29-Jul-2017 04:55:26 UTC] jp-sitemap-DazOr: -- Building sitemap-1.xml
+[29-Jul-2017 04:55:26 UTC] jp-sitemap-DazOr: -- Cleaning Up jp_sitemap
+[29-Jul-2017 04:55:26 UTC] jp-sitemap-DazOr: -- Cleaning Up jp_sitemap_index
+[29-Jul-2017 04:55:26 UTC] jp-sitemap-DazOr: -- Building image-sitemap-1.xml
+[29-Jul-2017 04:55:26 UTC] jp-sitemap-DazOr: -- Cleaning Up jp_img_sitemap
+[29-Jul-2017 04:55:26 UTC] jp-sitemap-DazOr: -- Cleaning Up jp_img_sitemap_index
+[29-Jul-2017 04:55:26 UTC] jp-sitemap-DazOr: -- Building video-sitemap-1.xml
+[29-Jul-2017 04:55:26 UTC] jp-sitemap-DazOr: -- Cleaning Up jp_vid_sitemap
+[29-Jul-2017 04:55:26 UTC] jp-sitemap-DazOr: -- Cleaning Up jp_vid_sitemap_index
+[29-Jul-2017 04:55:26 UTC] jp-sitemap-DazOr: -- Building Master Sitemap.
+[29-Jul-2017 04:55:26 UTC] jp-sitemap-DazOr: -- Finished.
+[29-Jul-2017 04:55:26 UTC] jp-sitemap-DazOr:  0.275 seconds elapsed.
+[29-Jul-2017 17:02:37 UTC] jp-sitemap-4bBqW: -- Updating...
+[29-Jul-2017 17:02:37 UTC] jp-sitemap-4bBqW: -- Building sitemap-1.xml
+[29-Jul-2017 17:02:37 UTC] jp-sitemap-4bBqW: -- Cleaning Up jp_sitemap
+[29-Jul-2017 17:02:37 UTC] jp-sitemap-4bBqW: -- Cleaning Up jp_sitemap_index
+[29-Jul-2017 17:02:37 UTC] jp-sitemap-4bBqW: -- Building image-sitemap-1.xml
+[29-Jul-2017 17:02:37 UTC] jp-sitemap-4bBqW: -- Cleaning Up jp_img_sitemap
+[29-Jul-2017 17:02:37 UTC] jp-sitemap-4bBqW: -- Cleaning Up jp_img_sitemap_index
+[29-Jul-2017 17:02:37 UTC] jp-sitemap-4bBqW: -- Building video-sitemap-1.xml
+[29-Jul-2017 17:02:37 UTC] jp-sitemap-4bBqW: -- Cleaning Up jp_vid_sitemap
+[29-Jul-2017 17:02:37 UTC] jp-sitemap-4bBqW: -- Cleaning Up jp_vid_sitemap_index
+[29-Jul-2017 17:02:37 UTC] jp-sitemap-4bBqW: -- Building Master Sitemap.
+[29-Jul-2017 17:02:37 UTC] jp-sitemap-4bBqW: -- Finished.
+[29-Jul-2017 17:02:37 UTC] jp-sitemap-4bBqW:  0.267 seconds elapsed.
+[30-Jul-2017 01:14:52 UTC] jp-sitemap-U5oi6: Beginning news sitemap generation.
+[30-Jul-2017 01:14:52 UTC] jp-sitemap-U5oi6: End news sitemap generation. 0.005 seconds elapsed.
+[30-Jul-2017 04:44:02 UTC] jp-sitemap-bLw7N: -- Updating...
+[30-Jul-2017 04:44:02 UTC] jp-sitemap-bLw7N: -- Building sitemap-1.xml
+[30-Jul-2017 04:44:02 UTC] jp-sitemap-bLw7N: -- Cleaning Up jp_sitemap
+[30-Jul-2017 04:44:02 UTC] jp-sitemap-bLw7N: -- Cleaning Up jp_sitemap_index
+[30-Jul-2017 04:44:02 UTC] jp-sitemap-bLw7N: -- Building image-sitemap-1.xml
+[30-Jul-2017 04:44:03 UTC] jp-sitemap-bLw7N: -- Cleaning Up jp_img_sitemap
+[30-Jul-2017 04:44:03 UTC] jp-sitemap-bLw7N: -- Cleaning Up jp_img_sitemap_index
+[30-Jul-2017 04:44:03 UTC] jp-sitemap-bLw7N: -- Building video-sitemap-1.xml
+[30-Jul-2017 04:44:03 UTC] jp-sitemap-bLw7N: -- Cleaning Up jp_vid_sitemap
+[30-Jul-2017 04:44:03 UTC] jp-sitemap-bLw7N: -- Cleaning Up jp_vid_sitemap_index
+[30-Jul-2017 04:44:03 UTC] jp-sitemap-bLw7N: -- Building Master Sitemap.
+[30-Jul-2017 04:44:03 UTC] jp-sitemap-bLw7N: -- Finished.
+[30-Jul-2017 04:44:03 UTC] jp-sitemap-bLw7N:  0.265 seconds elapsed.
+[30-Jul-2017 17:07:09 UTC] jp-sitemap-Vxhfs: -- Updating...
+[30-Jul-2017 17:07:09 UTC] jp-sitemap-Vxhfs: -- Building sitemap-1.xml
+[30-Jul-2017 17:07:09 UTC] jp-sitemap-Vxhfs: -- Cleaning Up jp_sitemap
+[30-Jul-2017 17:07:09 UTC] jp-sitemap-Vxhfs: -- Cleaning Up jp_sitemap_index
+[30-Jul-2017 17:07:09 UTC] jp-sitemap-Vxhfs: -- Building image-sitemap-1.xml
+[30-Jul-2017 17:07:09 UTC] jp-sitemap-Vxhfs: -- Cleaning Up jp_img_sitemap
+[30-Jul-2017 17:07:09 UTC] jp-sitemap-Vxhfs: -- Cleaning Up jp_img_sitemap_index
+[30-Jul-2017 17:07:09 UTC] jp-sitemap-Vxhfs: -- Building video-sitemap-1.xml
+[30-Jul-2017 17:07:09 UTC] jp-sitemap-Vxhfs: -- Cleaning Up jp_vid_sitemap
+[30-Jul-2017 17:07:09 UTC] jp-sitemap-Vxhfs: -- Cleaning Up jp_vid_sitemap_index
+[30-Jul-2017 17:07:09 UTC] jp-sitemap-Vxhfs: -- Building Master Sitemap.
+[30-Jul-2017 17:07:09 UTC] jp-sitemap-Vxhfs: -- Finished.
+[30-Jul-2017 17:07:09 UTC] jp-sitemap-Vxhfs:  0.277 seconds elapsed.
+[31-Jul-2017 04:52:05 UTC] jp-sitemap-h9Mzn: -- Updating...
+[31-Jul-2017 04:52:05 UTC] jp-sitemap-h9Mzn: -- Building sitemap-1.xml
+[31-Jul-2017 04:52:05 UTC] jp-sitemap-h9Mzn: -- Cleaning Up jp_sitemap
+[31-Jul-2017 04:52:05 UTC] jp-sitemap-h9Mzn: -- Cleaning Up jp_sitemap_index
+[31-Jul-2017 04:52:05 UTC] jp-sitemap-h9Mzn: -- Building image-sitemap-1.xml
+[31-Jul-2017 04:52:06 UTC] jp-sitemap-h9Mzn: -- Cleaning Up jp_img_sitemap
+[31-Jul-2017 04:52:06 UTC] jp-sitemap-h9Mzn: -- Cleaning Up jp_img_sitemap_index
+[31-Jul-2017 04:52:06 UTC] jp-sitemap-h9Mzn: -- Building video-sitemap-1.xml
+[31-Jul-2017 04:52:06 UTC] jp-sitemap-h9Mzn: -- Cleaning Up jp_vid_sitemap
+[31-Jul-2017 04:52:06 UTC] jp-sitemap-h9Mzn: -- Cleaning Up jp_vid_sitemap_index
+[31-Jul-2017 04:52:06 UTC] jp-sitemap-h9Mzn: -- Building Master Sitemap.
+[31-Jul-2017 04:52:06 UTC] jp-sitemap-h9Mzn: -- Finished.
+[31-Jul-2017 04:52:06 UTC] jp-sitemap-h9Mzn:  0.376 seconds elapsed.
+[31-Jul-2017 16:49:38 UTC] jp-sitemap-VNt0n: -- Updating...
+[31-Jul-2017 16:49:38 UTC] jp-sitemap-VNt0n: -- Building sitemap-1.xml
+[31-Jul-2017 16:49:39 UTC] jp-sitemap-VNt0n: -- Cleaning Up jp_sitemap
+[31-Jul-2017 16:49:39 UTC] jp-sitemap-VNt0n: -- Cleaning Up jp_sitemap_index
+[31-Jul-2017 16:49:39 UTC] jp-sitemap-VNt0n: -- Building image-sitemap-1.xml
+[31-Jul-2017 16:49:39 UTC] jp-sitemap-VNt0n: -- Cleaning Up jp_img_sitemap
+[31-Jul-2017 16:49:39 UTC] jp-sitemap-VNt0n: -- Cleaning Up jp_img_sitemap_index
+[31-Jul-2017 16:49:39 UTC] jp-sitemap-VNt0n: -- Building video-sitemap-1.xml
+[31-Jul-2017 16:49:39 UTC] jp-sitemap-VNt0n: -- Cleaning Up jp_vid_sitemap
+[31-Jul-2017 16:49:39 UTC] jp-sitemap-VNt0n: -- Cleaning Up jp_vid_sitemap_index
+[31-Jul-2017 16:49:39 UTC] jp-sitemap-VNt0n: -- Building Master Sitemap.
+[31-Jul-2017 16:49:39 UTC] jp-sitemap-VNt0n: -- Finished.
+[31-Jul-2017 16:49:39 UTC] jp-sitemap-VNt0n:  0.283 seconds elapsed.
+[01-Aug-2017 00:04:39 UTC] jp-sitemap-pAJMx: Beginning news sitemap generation.
+[01-Aug-2017 00:04:39 UTC] jp-sitemap-pAJMx: End news sitemap generation. 0.004 seconds elapsed.
+[01-Aug-2017 05:20:18 UTC] jp-sitemap-0Ut9y: -- Updating...
+[01-Aug-2017 05:20:18 UTC] jp-sitemap-0Ut9y: -- Building sitemap-1.xml
+[01-Aug-2017 05:20:18 UTC] jp-sitemap-0Ut9y: -- Cleaning Up jp_sitemap
+[01-Aug-2017 05:20:18 UTC] jp-sitemap-0Ut9y: -- Cleaning Up jp_sitemap_index
+[01-Aug-2017 05:20:18 UTC] jp-sitemap-0Ut9y: -- Building image-sitemap-1.xml
+[01-Aug-2017 05:20:18 UTC] jp-sitemap-0Ut9y: -- Cleaning Up jp_img_sitemap
+[01-Aug-2017 05:20:18 UTC] jp-sitemap-0Ut9y: -- Cleaning Up jp_img_sitemap_index
+[01-Aug-2017 05:20:18 UTC] jp-sitemap-0Ut9y: -- Building video-sitemap-1.xml
+[01-Aug-2017 05:20:18 UTC] jp-sitemap-0Ut9y: -- Cleaning Up jp_vid_sitemap
+[01-Aug-2017 05:20:18 UTC] jp-sitemap-0Ut9y: -- Cleaning Up jp_vid_sitemap_index
+[01-Aug-2017 05:20:18 UTC] jp-sitemap-0Ut9y: -- Building Master Sitemap.
+[01-Aug-2017 05:20:18 UTC] jp-sitemap-0Ut9y: -- Finished.
+[01-Aug-2017 05:20:18 UTC] jp-sitemap-0Ut9y:  0.283 seconds elapsed.
+[01-Aug-2017 16:44:18 UTC] jp-sitemap-5kBcm: -- Updating...
+[01-Aug-2017 16:44:18 UTC] jp-sitemap-5kBcm: -- Building sitemap-1.xml
+[01-Aug-2017 16:44:19 UTC] jp-sitemap-5kBcm: -- Cleaning Up jp_sitemap
+[01-Aug-2017 16:44:19 UTC] jp-sitemap-5kBcm: -- Cleaning Up jp_sitemap_index
+[01-Aug-2017 16:44:19 UTC] jp-sitemap-5kBcm: -- Building image-sitemap-1.xml
+[01-Aug-2017 16:44:19 UTC] jp-sitemap-5kBcm: -- Cleaning Up jp_img_sitemap
+[01-Aug-2017 16:44:19 UTC] jp-sitemap-5kBcm: -- Cleaning Up jp_img_sitemap_index
+[01-Aug-2017 16:44:19 UTC] jp-sitemap-5kBcm: -- Building video-sitemap-1.xml
+[01-Aug-2017 16:44:19 UTC] jp-sitemap-5kBcm: -- Cleaning Up jp_vid_sitemap
+[01-Aug-2017 16:44:19 UTC] jp-sitemap-5kBcm: -- Cleaning Up jp_vid_sitemap_index
+[01-Aug-2017 16:44:19 UTC] jp-sitemap-5kBcm: -- Building Master Sitemap.
+[01-Aug-2017 16:44:19 UTC] jp-sitemap-5kBcm: -- Finished.
+[01-Aug-2017 16:44:19 UTC] jp-sitemap-5kBcm:  0.286 seconds elapsed.
+[01-Aug-2017 19:23:20 UTC] jp-sitemap-0yZKW: Beginning news sitemap generation.
+[01-Aug-2017 19:23:20 UTC] jp-sitemap-0yZKW: End news sitemap generation. 0.006 seconds elapsed.
+[02-Aug-2017 05:27:26 UTC] jp-sitemap-8TKZv: -- Updating...
+[02-Aug-2017 05:27:26 UTC] jp-sitemap-8TKZv: -- Building sitemap-1.xml
+[02-Aug-2017 05:27:26 UTC] jp-sitemap-8TKZv: -- Cleaning Up jp_sitemap
+[02-Aug-2017 05:27:26 UTC] jp-sitemap-8TKZv: -- Cleaning Up jp_sitemap_index
+[02-Aug-2017 05:27:26 UTC] jp-sitemap-8TKZv: -- Building image-sitemap-1.xml
+[02-Aug-2017 05:27:26 UTC] jp-sitemap-8TKZv: -- Cleaning Up jp_img_sitemap
+[02-Aug-2017 05:27:26 UTC] jp-sitemap-8TKZv: -- Cleaning Up jp_img_sitemap_index
+[02-Aug-2017 05:27:26 UTC] jp-sitemap-8TKZv: -- Building video-sitemap-1.xml
+[02-Aug-2017 05:27:26 UTC] jp-sitemap-8TKZv: -- Cleaning Up jp_vid_sitemap
+[02-Aug-2017 05:27:26 UTC] jp-sitemap-8TKZv: -- Cleaning Up jp_vid_sitemap_index
+[02-Aug-2017 05:27:26 UTC] jp-sitemap-8TKZv: -- Building Master Sitemap.
+[02-Aug-2017 05:27:26 UTC] jp-sitemap-8TKZv: -- Finished.
+[02-Aug-2017 05:27:26 UTC] jp-sitemap-8TKZv:  0.266 seconds elapsed.
+[02-Aug-2017 15:46:29 UTC] jp-sitemap-TR2i3: Beginning news sitemap generation.
+[02-Aug-2017 15:46:29 UTC] jp-sitemap-TR2i3: End news sitemap generation. 0.005 seconds elapsed.
+[02-Aug-2017 16:51:45 UTC] jp-sitemap-3maHZ: -- Updating...
+[02-Aug-2017 16:51:45 UTC] jp-sitemap-3maHZ: -- Building sitemap-1.xml
+[02-Aug-2017 16:51:45 UTC] jp-sitemap-3maHZ: -- Cleaning Up jp_sitemap
+[02-Aug-2017 16:51:45 UTC] jp-sitemap-3maHZ: -- Cleaning Up jp_sitemap_index
+[02-Aug-2017 16:51:45 UTC] jp-sitemap-3maHZ: -- Building image-sitemap-1.xml
+[02-Aug-2017 16:51:45 UTC] jp-sitemap-3maHZ: -- Cleaning Up jp_img_sitemap
+[02-Aug-2017 16:51:45 UTC] jp-sitemap-3maHZ: -- Cleaning Up jp_img_sitemap_index
+[02-Aug-2017 16:51:45 UTC] jp-sitemap-3maHZ: -- Building video-sitemap-1.xml
+[02-Aug-2017 16:51:45 UTC] jp-sitemap-3maHZ: -- Cleaning Up jp_vid_sitemap
+[02-Aug-2017 16:51:45 UTC] jp-sitemap-3maHZ: -- Cleaning Up jp_vid_sitemap_index
+[02-Aug-2017 16:51:45 UTC] jp-sitemap-3maHZ: -- Building Master Sitemap.
+[02-Aug-2017 16:51:45 UTC] jp-sitemap-3maHZ: -- Finished.
+[02-Aug-2017 16:51:45 UTC] jp-sitemap-3maHZ:  1.749 seconds elapsed.
+[03-Aug-2017 03:52:37 UTC] jp-sitemap-dsnhb: Beginning news sitemap generation.
+[03-Aug-2017 03:52:37 UTC] jp-sitemap-dsnhb: End news sitemap generation. 0.007 seconds elapsed.
+[03-Aug-2017 04:59:48 UTC] jp-sitemap-pt2fo: -- Updating...
+[03-Aug-2017 04:59:48 UTC] jp-sitemap-pt2fo: -- Building sitemap-1.xml
+[03-Aug-2017 04:59:48 UTC] jp-sitemap-pt2fo: -- Cleaning Up jp_sitemap
+[03-Aug-2017 04:59:48 UTC] jp-sitemap-pt2fo: -- Cleaning Up jp_sitemap_index
+[03-Aug-2017 04:59:48 UTC] jp-sitemap-pt2fo: -- Building image-sitemap-1.xml
+[03-Aug-2017 04:59:48 UTC] jp-sitemap-pt2fo: -- Cleaning Up jp_img_sitemap
+[03-Aug-2017 04:59:48 UTC] jp-sitemap-pt2fo: -- Cleaning Up jp_img_sitemap_index
+[03-Aug-2017 04:59:48 UTC] jp-sitemap-pt2fo: -- Building video-sitemap-1.xml
+[03-Aug-2017 04:59:48 UTC] jp-sitemap-pt2fo: -- Cleaning Up jp_vid_sitemap
+[03-Aug-2017 04:59:48 UTC] jp-sitemap-pt2fo: -- Cleaning Up jp_vid_sitemap_index
+[03-Aug-2017 04:59:48 UTC] jp-sitemap-pt2fo: -- Building Master Sitemap.
+[03-Aug-2017 04:59:48 UTC] jp-sitemap-pt2fo: -- Finished.
+[03-Aug-2017 04:59:48 UTC] jp-sitemap-pt2fo:  0.26 seconds elapsed.
+[03-Aug-2017 17:06:02 UTC] jp-sitemap-EkQIE: -- Updating...
+[03-Aug-2017 17:06:02 UTC] jp-sitemap-EkQIE: -- Building sitemap-1.xml
+[03-Aug-2017 17:06:02 UTC] jp-sitemap-EkQIE: -- Cleaning Up jp_sitemap
+[03-Aug-2017 17:06:02 UTC] jp-sitemap-EkQIE: -- Cleaning Up jp_sitemap_index
+[03-Aug-2017 17:06:02 UTC] jp-sitemap-EkQIE: -- Building image-sitemap-1.xml
+[03-Aug-2017 17:06:02 UTC] jp-sitemap-EkQIE: -- Cleaning Up jp_img_sitemap
+[03-Aug-2017 17:06:02 UTC] jp-sitemap-EkQIE: -- Cleaning Up jp_img_sitemap_index
+[03-Aug-2017 17:06:02 UTC] jp-sitemap-EkQIE: -- Building video-sitemap-1.xml
+[03-Aug-2017 17:06:02 UTC] jp-sitemap-EkQIE: -- Cleaning Up jp_vid_sitemap
+[03-Aug-2017 17:06:02 UTC] jp-sitemap-EkQIE: -- Cleaning Up jp_vid_sitemap_index
+[03-Aug-2017 17:06:02 UTC] jp-sitemap-EkQIE: -- Building Master Sitemap.
+[03-Aug-2017 17:06:02 UTC] jp-sitemap-EkQIE: -- Finished.
+[03-Aug-2017 17:06:02 UTC] jp-sitemap-EkQIE:  0.321 seconds elapsed.
+[03-Aug-2017 17:49:21 UTC] WP_Community_Events::maybe_log_events_response: Valid response received. Details: {"api_url":"https:\/\/api.wordpress.org\/events\/1.0\/","request_args":{"body":{"number":5,"ip":"47.34.51.0","locale":"en_US","timezone":"America\/Chicago"}},"response_code":200,"response_body":{"location":{"ip":"47.34.51.0"},"events":"5 events trimmed."}}
+[03-Aug-2017 20:26:33 UTC] WP_Community_Events::maybe_log_events_response: Valid response received. Details: {"api_url":"https:\/\/api.wordpress.org\/events\/1.0\/","request_args":{"body":{"number":5,"ip":"144.202.253.0","locale":"en_US","timezone":"America\/Chicago"}},"response_code":200,"response_body":{"location":{"ip":"144.202.253.0"},"events":"5 events trimmed."}}
+[04-Aug-2017 04:45:50 UTC] jp-sitemap-EDJ7F: -- Updating...
+[04-Aug-2017 04:45:50 UTC] jp-sitemap-EDJ7F: -- Building sitemap-1.xml
+[04-Aug-2017 04:45:50 UTC] jp-sitemap-EDJ7F: -- Cleaning Up jp_sitemap
+[04-Aug-2017 04:45:50 UTC] jp-sitemap-EDJ7F: -- Cleaning Up jp_sitemap_index
+[04-Aug-2017 04:45:50 UTC] jp-sitemap-EDJ7F: -- Building image-sitemap-1.xml
+[04-Aug-2017 04:45:50 UTC] jp-sitemap-EDJ7F: -- Cleaning Up jp_img_sitemap
+[04-Aug-2017 04:45:50 UTC] jp-sitemap-EDJ7F: -- Cleaning Up jp_img_sitemap_index
+[04-Aug-2017 04:45:50 UTC] jp-sitemap-EDJ7F: -- Building video-sitemap-1.xml
+[04-Aug-2017 04:45:50 UTC] jp-sitemap-EDJ7F: -- Cleaning Up jp_vid_sitemap
+[04-Aug-2017 04:45:50 UTC] jp-sitemap-EDJ7F: -- Cleaning Up jp_vid_sitemap_index
+[04-Aug-2017 04:45:50 UTC] jp-sitemap-EDJ7F: -- Building Master Sitemap.
+[04-Aug-2017 04:45:50 UTC] jp-sitemap-EDJ7F: -- Finished.
+[04-Aug-2017 04:45:50 UTC] jp-sitemap-EDJ7F:  0.296 seconds elapsed.
+[04-Aug-2017 16:43:29 UTC] jp-sitemap-nFB8C: -- Updating...
+[04-Aug-2017 16:43:29 UTC] jp-sitemap-nFB8C: -- Building sitemap-1.xml
+[04-Aug-2017 16:43:29 UTC] jp-sitemap-nFB8C: -- Cleaning Up jp_sitemap
+[04-Aug-2017 16:43:29 UTC] jp-sitemap-nFB8C: -- Cleaning Up jp_sitemap_index
+[04-Aug-2017 16:43:29 UTC] jp-sitemap-nFB8C: -- Building image-sitemap-1.xml
+[04-Aug-2017 16:43:29 UTC] jp-sitemap-nFB8C: -- Cleaning Up jp_img_sitemap
+[04-Aug-2017 16:43:29 UTC] jp-sitemap-nFB8C: -- Cleaning Up jp_img_sitemap_index
+[04-Aug-2017 16:43:29 UTC] jp-sitemap-nFB8C: -- Building video-sitemap-1.xml
+[04-Aug-2017 16:43:29 UTC] jp-sitemap-nFB8C: -- Cleaning Up jp_vid_sitemap
+[04-Aug-2017 16:43:29 UTC] jp-sitemap-nFB8C: -- Cleaning Up jp_vid_sitemap_index
+[04-Aug-2017 16:43:29 UTC] jp-sitemap-nFB8C: -- Building Master Sitemap.
+[04-Aug-2017 16:43:29 UTC] jp-sitemap-nFB8C: -- Finished.
+[04-Aug-2017 16:43:29 UTC] jp-sitemap-nFB8C:  0.258 seconds elapsed.
+[05-Aug-2017 00:11:18 UTC] jp-sitemap-IxPos: Beginning news sitemap generation.
+[05-Aug-2017 00:11:18 UTC] jp-sitemap-IxPos: End news sitemap generation. 0.015 seconds elapsed.
+[05-Aug-2017 05:00:59 UTC] jp-sitemap-os1LM: -- Updating...
+[05-Aug-2017 05:00:59 UTC] jp-sitemap-os1LM: -- Building sitemap-1.xml
+[05-Aug-2017 05:00:59 UTC] jp-sitemap-os1LM: -- Cleaning Up jp_sitemap
+[05-Aug-2017 05:00:59 UTC] jp-sitemap-os1LM: -- Cleaning Up jp_sitemap_index
+[05-Aug-2017 05:00:59 UTC] jp-sitemap-os1LM: -- Building image-sitemap-1.xml
+[05-Aug-2017 05:00:59 UTC] jp-sitemap-os1LM: -- Cleaning Up jp_img_sitemap
+[05-Aug-2017 05:00:59 UTC] jp-sitemap-os1LM: -- Cleaning Up jp_img_sitemap_index
+[05-Aug-2017 05:00:59 UTC] jp-sitemap-os1LM: -- Building video-sitemap-1.xml
+[05-Aug-2017 05:00:59 UTC] jp-sitemap-os1LM: -- Cleaning Up jp_vid_sitemap
+[05-Aug-2017 05:00:59 UTC] jp-sitemap-os1LM: -- Cleaning Up jp_vid_sitemap_index
+[05-Aug-2017 05:00:59 UTC] jp-sitemap-os1LM: -- Building Master Sitemap.
+[05-Aug-2017 05:00:59 UTC] jp-sitemap-os1LM: -- Finished.
+[05-Aug-2017 05:00:59 UTC] jp-sitemap-os1LM:  0.579 seconds elapsed.
+[05-Aug-2017 16:44:35 UTC] jp-sitemap-dsyxF: -- Updating...
+[05-Aug-2017 16:44:35 UTC] jp-sitemap-dsyxF: -- Building sitemap-1.xml
+[05-Aug-2017 16:44:35 UTC] jp-sitemap-dsyxF: -- Cleaning Up jp_sitemap
+[05-Aug-2017 16:44:35 UTC] jp-sitemap-dsyxF: -- Cleaning Up jp_sitemap_index
+[05-Aug-2017 16:44:35 UTC] jp-sitemap-dsyxF: -- Building image-sitemap-1.xml
+[05-Aug-2017 16:44:35 UTC] jp-sitemap-dsyxF: -- Cleaning Up jp_img_sitemap
+[05-Aug-2017 16:44:35 UTC] jp-sitemap-dsyxF: -- Cleaning Up jp_img_sitemap_index
+[05-Aug-2017 16:44:35 UTC] jp-sitemap-dsyxF: -- Building video-sitemap-1.xml
+[05-Aug-2017 16:44:35 UTC] jp-sitemap-dsyxF: -- Cleaning Up jp_vid_sitemap
+[05-Aug-2017 16:44:35 UTC] jp-sitemap-dsyxF: -- Cleaning Up jp_vid_sitemap_index
+[05-Aug-2017 16:44:35 UTC] jp-sitemap-dsyxF: -- Building Master Sitemap.
+[05-Aug-2017 16:44:35 UTC] jp-sitemap-dsyxF: -- Finished.
+[05-Aug-2017 16:44:35 UTC] jp-sitemap-dsyxF:  0.308 seconds elapsed.
+[06-Aug-2017 04:47:45 UTC] jp-sitemap-Rmc2y: -- Updating...
+[06-Aug-2017 04:47:45 UTC] jp-sitemap-Rmc2y: -- Building sitemap-1.xml
+[06-Aug-2017 04:47:46 UTC] jp-sitemap-Rmc2y: -- Cleaning Up jp_sitemap
+[06-Aug-2017 04:47:46 UTC] jp-sitemap-Rmc2y: -- Cleaning Up jp_sitemap_index
+[06-Aug-2017 04:47:46 UTC] jp-sitemap-Rmc2y: -- Building image-sitemap-1.xml
+[06-Aug-2017 04:47:46 UTC] jp-sitemap-Rmc2y: -- Cleaning Up jp_img_sitemap
+[06-Aug-2017 04:47:46 UTC] jp-sitemap-Rmc2y: -- Cleaning Up jp_img_sitemap_index
+[06-Aug-2017 04:47:46 UTC] jp-sitemap-Rmc2y: -- Building video-sitemap-1.xml
+[06-Aug-2017 04:47:46 UTC] jp-sitemap-Rmc2y: -- Cleaning Up jp_vid_sitemap
+[06-Aug-2017 04:47:46 UTC] jp-sitemap-Rmc2y: -- Cleaning Up jp_vid_sitemap_index
+[06-Aug-2017 04:47:46 UTC] jp-sitemap-Rmc2y: -- Building Master Sitemap.
+[06-Aug-2017 04:47:46 UTC] jp-sitemap-Rmc2y: -- Finished.
+[06-Aug-2017 04:47:46 UTC] jp-sitemap-Rmc2y:  0.302 seconds elapsed.
+[06-Aug-2017 12:16:50 UTC] jp-sitemap-J3kc5: Beginning news sitemap generation.
+[06-Aug-2017 12:16:50 UTC] jp-sitemap-J3kc5: End news sitemap generation. 0.007 seconds elapsed.
+[06-Aug-2017 16:58:16 UTC] jp-sitemap-MbuMT: -- Updating...
+[06-Aug-2017 16:58:16 UTC] jp-sitemap-MbuMT: -- Building sitemap-1.xml
+[06-Aug-2017 16:58:16 UTC] jp-sitemap-MbuMT: -- Cleaning Up jp_sitemap
+[06-Aug-2017 16:58:16 UTC] jp-sitemap-MbuMT: -- Cleaning Up jp_sitemap_index
+[06-Aug-2017 16:58:16 UTC] jp-sitemap-MbuMT: -- Building image-sitemap-1.xml
+[06-Aug-2017 16:58:16 UTC] jp-sitemap-MbuMT: -- Cleaning Up jp_img_sitemap
+[06-Aug-2017 16:58:16 UTC] jp-sitemap-MbuMT: -- Cleaning Up jp_img_sitemap_index
+[06-Aug-2017 16:58:16 UTC] jp-sitemap-MbuMT: -- Building video-sitemap-1.xml
+[06-Aug-2017 16:58:16 UTC] jp-sitemap-MbuMT: -- Cleaning Up jp_vid_sitemap
+[06-Aug-2017 16:58:16 UTC] jp-sitemap-MbuMT: -- Cleaning Up jp_vid_sitemap_index
+[06-Aug-2017 16:58:16 UTC] jp-sitemap-MbuMT: -- Building Master Sitemap.
+[06-Aug-2017 16:58:16 UTC] jp-sitemap-MbuMT: -- Finished.
+[06-Aug-2017 16:58:16 UTC] jp-sitemap-MbuMT:  0.273 seconds elapsed.
+[07-Aug-2017 01:24:02 UTC] WP_Community_Events::maybe_log_events_response: Valid response received. Details: {"api_url":"https:\/\/api.wordpress.org\/events\/1.0\/","request_args":{"body":{"number":5,"ip":"96.41.252.0","locale":"en_US","timezone":"America\/Chicago"}},"response_code":200,"response_body":{"location":{"ip":"96.41.252.0"},"events":"4 events trimmed."}}
+[07-Aug-2017 04:47:41 UTC] jp-sitemap-6lbqN: -- Updating...
+[07-Aug-2017 04:47:41 UTC] jp-sitemap-6lbqN: -- Building sitemap-1.xml
+[07-Aug-2017 04:47:41 UTC] jp-sitemap-6lbqN: -- Cleaning Up jp_sitemap
+[07-Aug-2017 04:47:41 UTC] jp-sitemap-6lbqN: -- Cleaning Up jp_sitemap_index
+[07-Aug-2017 04:47:41 UTC] jp-sitemap-6lbqN: -- Building image-sitemap-1.xml
+[07-Aug-2017 04:47:41 UTC] jp-sitemap-6lbqN: -- Cleaning Up jp_img_sitemap
+[07-Aug-2017 04:47:41 UTC] jp-sitemap-6lbqN: -- Cleaning Up jp_img_sitemap_index
+[07-Aug-2017 04:47:41 UTC] jp-sitemap-6lbqN: -- Building video-sitemap-1.xml
+[07-Aug-2017 04:47:41 UTC] jp-sitemap-6lbqN: -- Cleaning Up jp_vid_sitemap
+[07-Aug-2017 04:47:41 UTC] jp-sitemap-6lbqN: -- Cleaning Up jp_vid_sitemap_index
+[07-Aug-2017 04:47:41 UTC] jp-sitemap-6lbqN: -- Building Master Sitemap.
+[07-Aug-2017 04:47:41 UTC] jp-sitemap-6lbqN: -- Finished.
+[07-Aug-2017 04:47:41 UTC] jp-sitemap-6lbqN:  0.275 seconds elapsed.
+[07-Aug-2017 09:14:23 UTC] jp-sitemap-d3bYq: Beginning news sitemap generation.
+[07-Aug-2017 09:14:23 UTC] jp-sitemap-d3bYq: End news sitemap generation. 0.008 seconds elapsed.
+[07-Aug-2017 16:44:29 UTC] jp-sitemap-mLsQC: -- Updating...
+[07-Aug-2017 16:44:29 UTC] jp-sitemap-mLsQC: -- Building sitemap-1.xml
+[07-Aug-2017 16:44:29 UTC] jp-sitemap-mLsQC: -- Cleaning Up jp_sitemap
+[07-Aug-2017 16:44:29 UTC] jp-sitemap-mLsQC: -- Cleaning Up jp_sitemap_index
+[07-Aug-2017 16:44:29 UTC] jp-sitemap-mLsQC: -- Building image-sitemap-1.xml
+[07-Aug-2017 16:44:29 UTC] jp-sitemap-mLsQC: -- Cleaning Up jp_img_sitemap
+[07-Aug-2017 16:44:29 UTC] jp-sitemap-mLsQC: -- Cleaning Up jp_img_sitemap_index
+[07-Aug-2017 16:44:29 UTC] jp-sitemap-mLsQC: -- Building video-sitemap-1.xml
+[07-Aug-2017 16:44:29 UTC] jp-sitemap-mLsQC: -- Cleaning Up jp_vid_sitemap
+[07-Aug-2017 16:44:29 UTC] jp-sitemap-mLsQC: -- Cleaning Up jp_vid_sitemap_index
+[07-Aug-2017 16:44:29 UTC] jp-sitemap-mLsQC: -- Building Master Sitemap.
+[07-Aug-2017 16:44:29 UTC] jp-sitemap-mLsQC: -- Finished.
+[07-Aug-2017 16:44:29 UTC] jp-sitemap-mLsQC:  0.324 seconds elapsed.
+[08-Aug-2017 04:45:39 UTC] jp-sitemap-rDcb4: -- Updating...
+[08-Aug-2017 04:45:39 UTC] jp-sitemap-rDcb4: -- Building sitemap-1.xml
+[08-Aug-2017 04:45:39 UTC] jp-sitemap-rDcb4: -- Cleaning Up jp_sitemap
+[08-Aug-2017 04:45:39 UTC] jp-sitemap-rDcb4: -- Cleaning Up jp_sitemap_index
+[08-Aug-2017 04:45:39 UTC] jp-sitemap-rDcb4: -- Building image-sitemap-1.xml
+[08-Aug-2017 04:45:39 UTC] jp-sitemap-rDcb4: -- Cleaning Up jp_img_sitemap
+[08-Aug-2017 04:45:39 UTC] jp-sitemap-rDcb4: -- Cleaning Up jp_img_sitemap_index
+[08-Aug-2017 04:45:39 UTC] jp-sitemap-rDcb4: -- Building video-sitemap-1.xml
+[08-Aug-2017 04:45:39 UTC] jp-sitemap-rDcb4: -- Cleaning Up jp_vid_sitemap
+[08-Aug-2017 04:45:39 UTC] jp-sitemap-rDcb4: -- Cleaning Up jp_vid_sitemap_index
+[08-Aug-2017 04:45:39 UTC] jp-sitemap-rDcb4: -- Building Master Sitemap.
+[08-Aug-2017 04:45:39 UTC] jp-sitemap-rDcb4: -- Finished.
+[08-Aug-2017 04:45:39 UTC] jp-sitemap-rDcb4:  0.265 seconds elapsed.
+[08-Aug-2017 16:49:56 UTC] jp-sitemap-FjmyF: -- Updating...
+[08-Aug-2017 16:49:56 UTC] jp-sitemap-FjmyF: -- Building sitemap-1.xml
+[08-Aug-2017 16:49:56 UTC] jp-sitemap-FjmyF: -- Cleaning Up jp_sitemap
+[08-Aug-2017 16:49:56 UTC] jp-sitemap-FjmyF: -- Cleaning Up jp_sitemap_index
+[08-Aug-2017 16:49:56 UTC] jp-sitemap-FjmyF: -- Building image-sitemap-1.xml
+[08-Aug-2017 16:49:56 UTC] jp-sitemap-FjmyF: -- Cleaning Up jp_img_sitemap
+[08-Aug-2017 16:49:56 UTC] jp-sitemap-FjmyF: -- Cleaning Up jp_img_sitemap_index
+[08-Aug-2017 16:49:56 UTC] jp-sitemap-FjmyF: -- Building video-sitemap-1.xml
+[08-Aug-2017 16:49:56 UTC] jp-sitemap-FjmyF: -- Cleaning Up jp_vid_sitemap
+[08-Aug-2017 16:49:56 UTC] jp-sitemap-FjmyF: -- Cleaning Up jp_vid_sitemap_index
+[08-Aug-2017 16:49:56 UTC] jp-sitemap-FjmyF: -- Building Master Sitemap.
+[08-Aug-2017 16:49:56 UTC] jp-sitemap-FjmyF: -- Finished.
+[08-Aug-2017 16:49:56 UTC] jp-sitemap-FjmyF:  0.272 seconds elapsed.
+[09-Aug-2017 02:20:50 UTC] jp-sitemap-rz74l: Beginning news sitemap generation.
+[09-Aug-2017 02:20:50 UTC] jp-sitemap-rz74l: End news sitemap generation. 0.01 seconds elapsed.
+[09-Aug-2017 04:45:51 UTC] jp-sitemap-GapBo: -- Updating...
+[09-Aug-2017 04:45:51 UTC] jp-sitemap-GapBo: -- Building sitemap-1.xml
+[09-Aug-2017 04:45:51 UTC] jp-sitemap-GapBo: -- Cleaning Up jp_sitemap
+[09-Aug-2017 04:45:51 UTC] jp-sitemap-GapBo: -- Cleaning Up jp_sitemap_index
+[09-Aug-2017 04:45:51 UTC] jp-sitemap-GapBo: -- Building image-sitemap-1.xml
+[09-Aug-2017 04:45:52 UTC] jp-sitemap-GapBo: -- Cleaning Up jp_img_sitemap
+[09-Aug-2017 04:45:52 UTC] jp-sitemap-GapBo: -- Cleaning Up jp_img_sitemap_index
+[09-Aug-2017 04:45:52 UTC] jp-sitemap-GapBo: -- Building video-sitemap-1.xml
+[09-Aug-2017 04:45:52 UTC] jp-sitemap-GapBo: -- Cleaning Up jp_vid_sitemap
+[09-Aug-2017 04:45:52 UTC] jp-sitemap-GapBo: -- Cleaning Up jp_vid_sitemap_index
+[09-Aug-2017 04:45:52 UTC] jp-sitemap-GapBo: -- Building Master Sitemap.
+[09-Aug-2017 04:45:52 UTC] jp-sitemap-GapBo: -- Finished.
+[09-Aug-2017 04:45:52 UTC] jp-sitemap-GapBo:  0.306 seconds elapsed.
+[09-Aug-2017 17:30:48 UTC] jp-sitemap-PpLLR: -- Updating...
+[09-Aug-2017 17:30:48 UTC] jp-sitemap-PpLLR: -- Building sitemap-1.xml
+[09-Aug-2017 17:30:48 UTC] jp-sitemap-PpLLR: -- Cleaning Up jp_sitemap
+[09-Aug-2017 17:30:48 UTC] jp-sitemap-PpLLR: -- Cleaning Up jp_sitemap_index
+[09-Aug-2017 17:30:48 UTC] jp-sitemap-PpLLR: -- Building image-sitemap-1.xml
+[09-Aug-2017 17:30:48 UTC] jp-sitemap-PpLLR: -- Cleaning Up jp_img_sitemap
+[09-Aug-2017 17:30:48 UTC] jp-sitemap-PpLLR: -- Cleaning Up jp_img_sitemap_index
+[09-Aug-2017 17:30:48 UTC] jp-sitemap-PpLLR: -- Building video-sitemap-1.xml
+[09-Aug-2017 17:30:48 UTC] jp-sitemap-PpLLR: -- Cleaning Up jp_vid_sitemap
+[09-Aug-2017 17:30:48 UTC] jp-sitemap-PpLLR: -- Cleaning Up jp_vid_sitemap_index
+[09-Aug-2017 17:30:48 UTC] jp-sitemap-PpLLR: -- Building Master Sitemap.
+[09-Aug-2017 17:30:48 UTC] jp-sitemap-PpLLR: -- Finished.
+[09-Aug-2017 17:30:48 UTC] jp-sitemap-PpLLR:  0.54 seconds elapsed.
+[10-Aug-2017 05:04:53 UTC] jp-sitemap-4JWrd: -- Updating...
+[10-Aug-2017 05:04:53 UTC] jp-sitemap-4JWrd: -- Building sitemap-1.xml
+[10-Aug-2017 05:04:54 UTC] jp-sitemap-4JWrd: -- Cleaning Up jp_sitemap
+[10-Aug-2017 05:04:54 UTC] jp-sitemap-4JWrd: -- Cleaning Up jp_sitemap_index
+[10-Aug-2017 05:04:54 UTC] jp-sitemap-4JWrd: -- Building image-sitemap-1.xml
+[10-Aug-2017 05:04:54 UTC] jp-sitemap-4JWrd: -- Cleaning Up jp_img_sitemap
+[10-Aug-2017 05:04:54 UTC] jp-sitemap-4JWrd: -- Cleaning Up jp_img_sitemap_index
+[10-Aug-2017 05:04:54 UTC] jp-sitemap-4JWrd: -- Building video-sitemap-1.xml
+[10-Aug-2017 05:04:54 UTC] jp-sitemap-4JWrd: -- Cleaning Up jp_vid_sitemap
+[10-Aug-2017 05:04:54 UTC] jp-sitemap-4JWrd: -- Cleaning Up jp_vid_sitemap_index
+[10-Aug-2017 05:04:54 UTC] jp-sitemap-4JWrd: -- Building Master Sitemap.
+[10-Aug-2017 05:04:54 UTC] jp-sitemap-4JWrd: -- Finished.
+[10-Aug-2017 05:04:54 UTC] jp-sitemap-4JWrd:  0.256 seconds elapsed.
+[10-Aug-2017 16:54:18 UTC] jp-sitemap-IJ9cc: -- Updating...
+[10-Aug-2017 16:54:18 UTC] jp-sitemap-IJ9cc: -- Building sitemap-1.xml
+[10-Aug-2017 16:54:18 UTC] jp-sitemap-IJ9cc: -- Cleaning Up jp_sitemap
+[10-Aug-2017 16:54:18 UTC] jp-sitemap-IJ9cc: -- Cleaning Up jp_sitemap_index
+[10-Aug-2017 16:54:18 UTC] jp-sitemap-IJ9cc: -- Building image-sitemap-1.xml
+[10-Aug-2017 16:54:18 UTC] jp-sitemap-IJ9cc: -- Cleaning Up jp_img_sitemap
+[10-Aug-2017 16:54:18 UTC] jp-sitemap-IJ9cc: -- Cleaning Up jp_img_sitemap_index
+[10-Aug-2017 16:54:18 UTC] jp-sitemap-IJ9cc: -- Building video-sitemap-1.xml
+[10-Aug-2017 16:54:18 UTC] jp-sitemap-IJ9cc: -- Cleaning Up jp_vid_sitemap
+[10-Aug-2017 16:54:18 UTC] jp-sitemap-IJ9cc: -- Cleaning Up jp_vid_sitemap_index
+[10-Aug-2017 16:54:18 UTC] jp-sitemap-IJ9cc: -- Building Master Sitemap.
+[10-Aug-2017 16:54:18 UTC] jp-sitemap-IJ9cc: -- Finished.
+[10-Aug-2017 16:54:18 UTC] jp-sitemap-IJ9cc:  0.305 seconds elapsed.
+[10-Aug-2017 19:15:01 UTC] WP_Community_Events::maybe_log_events_response: Valid response received. Details: {"api_url":"https:\/\/api.wordpress.org\/events\/1.0\/","request_args":{"body":{"number":5,"ip":"47.34.51.0","locale":"en_US","timezone":"America\/Chicago"}},"response_code":200,"response_body":{"location":{"ip":"47.34.51.0"},"events":"5 events trimmed."}}
+[10-Aug-2017 21:39:44 UTC] WP_Community_Events::maybe_log_events_response: Valid response received. Details: {"api_url":"https:\/\/api.wordpress.org\/events\/1.0\/","request_args":{"body":{"number":5,"ip":"144.202.253.0","locale":"en_US","timezone":"America\/Chicago"}},"response_code":200,"response_body":{"location":{"ip":"144.202.253.0"},"events":"5 events trimmed."}}
+[10-Aug-2017 22:41:27 UTC] WP_Community_Events::maybe_log_events_response: Valid response received. Details: {"api_url":"https:\/\/api.wordpress.org\/events\/1.0\/","request_args":{"body":{"number":5,"ip":"96.41.252.0","locale":"en_US","timezone":"America\/Chicago"}},"response_code":200,"response_body":{"location":{"ip":"96.41.252.0"},"events":"4 events trimmed."}}
+[11-Aug-2017 04:55:20 UTC] jp-sitemap-H20kS: -- Updating...
+[11-Aug-2017 04:55:20 UTC] jp-sitemap-H20kS: -- Building sitemap-1.xml
+[11-Aug-2017 04:55:20 UTC] jp-sitemap-H20kS: -- Cleaning Up jp_sitemap
+[11-Aug-2017 04:55:20 UTC] jp-sitemap-H20kS: -- Cleaning Up jp_sitemap_index
+[11-Aug-2017 04:55:20 UTC] jp-sitemap-H20kS: -- Building image-sitemap-1.xml
+[11-Aug-2017 04:55:20 UTC] jp-sitemap-H20kS: -- Cleaning Up jp_img_sitemap
+[11-Aug-2017 04:55:20 UTC] jp-sitemap-H20kS: -- Cleaning Up jp_img_sitemap_index
+[11-Aug-2017 04:55:20 UTC] jp-sitemap-H20kS: -- Building video-sitemap-1.xml
+[11-Aug-2017 04:55:20 UTC] jp-sitemap-H20kS: -- Cleaning Up jp_vid_sitemap
+[11-Aug-2017 04:55:20 UTC] jp-sitemap-H20kS: -- Cleaning Up jp_vid_sitemap_index
+[11-Aug-2017 04:55:20 UTC] jp-sitemap-H20kS: -- Building Master Sitemap.
+[11-Aug-2017 04:55:20 UTC] jp-sitemap-H20kS: -- Finished.
+[11-Aug-2017 04:55:20 UTC] jp-sitemap-H20kS:  0.292 seconds elapsed.
+[11-Aug-2017 17:11:10 UTC] jp-sitemap-WcrA2: -- Updating...
+[11-Aug-2017 17:11:10 UTC] jp-sitemap-WcrA2: -- Building sitemap-1.xml
+[11-Aug-2017 17:11:11 UTC] jp-sitemap-WcrA2: -- Cleaning Up jp_sitemap
+[11-Aug-2017 17:11:11 UTC] jp-sitemap-WcrA2: -- Cleaning Up jp_sitemap_index
+[11-Aug-2017 17:11:11 UTC] jp-sitemap-WcrA2: -- Building image-sitemap-1.xml
+[11-Aug-2017 17:11:11 UTC] jp-sitemap-WcrA2: -- Cleaning Up jp_img_sitemap
+[11-Aug-2017 17:11:11 UTC] jp-sitemap-WcrA2: -- Cleaning Up jp_img_sitemap_index
+[11-Aug-2017 17:11:11 UTC] jp-sitemap-WcrA2: -- Building video-sitemap-1.xml
+[11-Aug-2017 17:11:11 UTC] jp-sitemap-WcrA2: -- Cleaning Up jp_vid_sitemap
+[11-Aug-2017 17:11:11 UTC] jp-sitemap-WcrA2: -- Cleaning Up jp_vid_sitemap_index
+[11-Aug-2017 17:11:11 UTC] jp-sitemap-WcrA2: -- Building Master Sitemap.
+[11-Aug-2017 17:11:11 UTC] jp-sitemap-WcrA2: -- Finished.
+[11-Aug-2017 17:11:11 UTC] jp-sitemap-WcrA2:  0.291 seconds elapsed.
+[12-Aug-2017 05:09:53 UTC] jp-sitemap-LFsXi: -- Updating...
+[12-Aug-2017 05:09:53 UTC] jp-sitemap-LFsXi: -- Building sitemap-1.xml
+[12-Aug-2017 05:09:53 UTC] jp-sitemap-LFsXi: -- Cleaning Up jp_sitemap
+[12-Aug-2017 05:09:53 UTC] jp-sitemap-LFsXi: -- Cleaning Up jp_sitemap_index
+[12-Aug-2017 05:09:53 UTC] jp-sitemap-LFsXi: -- Building image-sitemap-1.xml
+[12-Aug-2017 05:09:53 UTC] jp-sitemap-LFsXi: -- Cleaning Up jp_img_sitemap
+[12-Aug-2017 05:09:53 UTC] jp-sitemap-LFsXi: -- Cleaning Up jp_img_sitemap_index
+[12-Aug-2017 05:09:53 UTC] jp-sitemap-LFsXi: -- Building video-sitemap-1.xml
+[12-Aug-2017 05:09:53 UTC] jp-sitemap-LFsXi: -- Cleaning Up jp_vid_sitemap
+[12-Aug-2017 05:09:53 UTC] jp-sitemap-LFsXi: -- Cleaning Up jp_vid_sitemap_index
+[12-Aug-2017 05:09:53 UTC] jp-sitemap-LFsXi: -- Building Master Sitemap.
+[12-Aug-2017 05:09:53 UTC] jp-sitemap-LFsXi: -- Finished.
+[12-Aug-2017 05:09:53 UTC] jp-sitemap-LFsXi:  0.296 seconds elapsed.
+[12-Aug-2017 06:24:49 UTC] jp-sitemap-F9QlM: Beginning news sitemap generation.
+[12-Aug-2017 06:24:49 UTC] jp-sitemap-F9QlM: End news sitemap generation. 0.007 seconds elapsed.
+[12-Aug-2017 16:44:12 UTC] jp-sitemap-NtnEu: -- Updating...
+[12-Aug-2017 16:44:12 UTC] jp-sitemap-NtnEu: -- Building sitemap-1.xml
+[12-Aug-2017 16:44:12 UTC] jp-sitemap-NtnEu: -- Cleaning Up jp_sitemap
+[12-Aug-2017 16:44:12 UTC] jp-sitemap-NtnEu: -- Cleaning Up jp_sitemap_index
+[12-Aug-2017 16:44:12 UTC] jp-sitemap-NtnEu: -- Building image-sitemap-1.xml
+[12-Aug-2017 16:44:12 UTC] jp-sitemap-NtnEu: -- Cleaning Up jp_img_sitemap
+[12-Aug-2017 16:44:12 UTC] jp-sitemap-NtnEu: -- Cleaning Up jp_img_sitemap_index
+[12-Aug-2017 16:44:12 UTC] jp-sitemap-NtnEu: -- Building video-sitemap-1.xml
+[12-Aug-2017 16:44:12 UTC] jp-sitemap-NtnEu: -- Cleaning Up jp_vid_sitemap
+[12-Aug-2017 16:44:12 UTC] jp-sitemap-NtnEu: -- Cleaning Up jp_vid_sitemap_index
+[12-Aug-2017 16:44:12 UTC] jp-sitemap-NtnEu: -- Building Master Sitemap.
+[12-Aug-2017 16:44:12 UTC] jp-sitemap-NtnEu: -- Finished.
+[12-Aug-2017 16:44:12 UTC] jp-sitemap-NtnEu:  0.303 seconds elapsed.
+[13-Aug-2017 00:01:01 UTC] jp-sitemap-EfWMh: Beginning news sitemap generation.
+[13-Aug-2017 00:01:01 UTC] jp-sitemap-EfWMh: End news sitemap generation. 0.007 seconds elapsed.
+[13-Aug-2017 01:15:57 UTC] WP_Community_Events::maybe_log_events_response: Valid response received. Details: {"api_url":"https:\/\/api.wordpress.org\/events\/1.0\/","request_args":{"body":{"number":5,"ip":"47.34.51.0","locale":"en_US","timezone":"America\/Chicago"}},"response_code":200,"response_body":{"location":{"ip":"47.34.51.0"},"events":"5 events trimmed."}}
+[13-Aug-2017 04:44:10 UTC] jp-sitemap-ikQGB: -- Updating...
+[13-Aug-2017 04:44:10 UTC] jp-sitemap-ikQGB: -- Building sitemap-1.xml
+[13-Aug-2017 04:44:11 UTC] jp-sitemap-ikQGB: -- Cleaning Up jp_sitemap
+[13-Aug-2017 04:44:11 UTC] jp-sitemap-ikQGB: -- Cleaning Up jp_sitemap_index
+[13-Aug-2017 04:44:11 UTC] jp-sitemap-ikQGB: -- Building image-sitemap-1.xml
+[13-Aug-2017 04:44:11 UTC] jp-sitemap-ikQGB: -- Cleaning Up jp_img_sitemap
+[13-Aug-2017 04:44:11 UTC] jp-sitemap-ikQGB: -- Cleaning Up jp_img_sitemap_index
+[13-Aug-2017 04:44:11 UTC] jp-sitemap-ikQGB: -- Building video-sitemap-1.xml
+[13-Aug-2017 04:44:11 UTC] jp-sitemap-ikQGB: -- Cleaning Up jp_vid_sitemap
+[13-Aug-2017 04:44:11 UTC] jp-sitemap-ikQGB: -- Cleaning Up jp_vid_sitemap_index
+[13-Aug-2017 04:44:11 UTC] jp-sitemap-ikQGB: -- Building Master Sitemap.
+[13-Aug-2017 04:44:11 UTC] jp-sitemap-ikQGB: -- Finished.
+[13-Aug-2017 04:44:11 UTC] jp-sitemap-ikQGB:  0.292 seconds elapsed.
+[13-Aug-2017 16:56:15 UTC] jp-sitemap-Xd1z5: -- Updating...
+[13-Aug-2017 16:56:15 UTC] jp-sitemap-Xd1z5: -- Building sitemap-1.xml
+[13-Aug-2017 16:56:16 UTC] jp-sitemap-Xd1z5: -- Cleaning Up jp_sitemap
+[13-Aug-2017 16:56:16 UTC] jp-sitemap-Xd1z5: -- Cleaning Up jp_sitemap_index
+[13-Aug-2017 16:56:16 UTC] jp-sitemap-Xd1z5: -- Building image-sitemap-1.xml
+[13-Aug-2017 16:56:16 UTC] jp-sitemap-Xd1z5: -- Cleaning Up jp_img_sitemap
+[13-Aug-2017 16:56:16 UTC] jp-sitemap-Xd1z5: -- Cleaning Up jp_img_sitemap_index
+[13-Aug-2017 16:56:16 UTC] jp-sitemap-Xd1z5: -- Building video-sitemap-1.xml
+[13-Aug-2017 16:56:16 UTC] jp-sitemap-Xd1z5: -- Cleaning Up jp_vid_sitemap
+[13-Aug-2017 16:56:16 UTC] jp-sitemap-Xd1z5: -- Cleaning Up jp_vid_sitemap_index
+[13-Aug-2017 16:56:16 UTC] jp-sitemap-Xd1z5: -- Building Master Sitemap.
+[13-Aug-2017 16:56:16 UTC] jp-sitemap-Xd1z5: -- Finished.
+[13-Aug-2017 16:56:16 UTC] jp-sitemap-Xd1z5:  0.356 seconds elapsed.
+[13-Aug-2017 18:54:54 UTC] jp-sitemap-Jo1bQ: Beginning news sitemap generation.
+[13-Aug-2017 18:54:54 UTC] jp-sitemap-Jo1bQ: End news sitemap generation. 0.008 seconds elapsed.
+[14-Aug-2017 05:31:49 UTC] jp-sitemap-hKlt6: -- Updating...
+[14-Aug-2017 05:31:49 UTC] jp-sitemap-hKlt6: -- Building sitemap-1.xml
+[14-Aug-2017 05:31:50 UTC] jp-sitemap-hKlt6: -- Cleaning Up jp_sitemap
+[14-Aug-2017 05:31:50 UTC] jp-sitemap-hKlt6: -- Cleaning Up jp_sitemap_index
+[14-Aug-2017 05:31:50 UTC] jp-sitemap-hKlt6: -- Building image-sitemap-1.xml
+[14-Aug-2017 05:31:50 UTC] jp-sitemap-hKlt6: -- Cleaning Up jp_img_sitemap
+[14-Aug-2017 05:31:50 UTC] jp-sitemap-hKlt6: -- Cleaning Up jp_img_sitemap_index
+[14-Aug-2017 05:31:50 UTC] jp-sitemap-hKlt6: -- Building video-sitemap-1.xml
+[14-Aug-2017 05:31:50 UTC] jp-sitemap-hKlt6: -- Cleaning Up jp_vid_sitemap
+[14-Aug-2017 05:31:50 UTC] jp-sitemap-hKlt6: -- Cleaning Up jp_vid_sitemap_index
+[14-Aug-2017 05:31:50 UTC] jp-sitemap-hKlt6: -- Building Master Sitemap.
+[14-Aug-2017 05:31:50 UTC] jp-sitemap-hKlt6: -- Finished.
+[14-Aug-2017 05:31:50 UTC] jp-sitemap-hKlt6:  0.347 seconds elapsed.
+[14-Aug-2017 16:49:01 UTC] jp-sitemap-GwhxL: -- Updating...
+[14-Aug-2017 16:49:01 UTC] jp-sitemap-GwhxL: -- Building sitemap-1.xml
+[14-Aug-2017 16:49:01 UTC] jp-sitemap-GwhxL: -- Cleaning Up jp_sitemap
+[14-Aug-2017 16:49:01 UTC] jp-sitemap-GwhxL: -- Cleaning Up jp_sitemap_index
+[14-Aug-2017 16:49:01 UTC] jp-sitemap-GwhxL: -- Building image-sitemap-1.xml
+[14-Aug-2017 16:49:01 UTC] jp-sitemap-GwhxL: -- Cleaning Up jp_img_sitemap
+[14-Aug-2017 16:49:01 UTC] jp-sitemap-GwhxL: -- Cleaning Up jp_img_sitemap_index
+[14-Aug-2017 16:49:01 UTC] jp-sitemap-GwhxL: -- Building video-sitemap-1.xml
+[14-Aug-2017 16:49:01 UTC] jp-sitemap-GwhxL: -- Cleaning Up jp_vid_sitemap
+[14-Aug-2017 16:49:01 UTC] jp-sitemap-GwhxL: -- Cleaning Up jp_vid_sitemap_index
+[14-Aug-2017 16:49:01 UTC] jp-sitemap-GwhxL: -- Building Master Sitemap.
+[14-Aug-2017 16:49:01 UTC] jp-sitemap-GwhxL: -- Finished.
+[14-Aug-2017 16:49:01 UTC] jp-sitemap-GwhxL:  0.274 seconds elapsed.
+[14-Aug-2017 20:09:38 UTC] WP_Community_Events::maybe_log_events_response: Valid response received. Details: {"api_url":"https:\/\/api.wordpress.org\/events\/1.0\/","request_args":{"body":{"number":5,"ip":"47.34.51.0","locale":"en_US","timezone":"America\/Chicago"}},"response_code":200,"response_body":{"location":{"ip":"47.34.51.0"},"events":"5 events trimmed."}}
+[15-Aug-2017 05:02:19 UTC] jp-sitemap-hLvFp: -- Updating...
+[15-Aug-2017 05:02:19 UTC] jp-sitemap-hLvFp: -- Building sitemap-1.xml
+[15-Aug-2017 05:02:19 UTC] jp-sitemap-hLvFp: -- Cleaning Up jp_sitemap
+[15-Aug-2017 05:02:19 UTC] jp-sitemap-hLvFp: -- Cleaning Up jp_sitemap_index
+[15-Aug-2017 05:02:19 UTC] jp-sitemap-hLvFp: -- Building image-sitemap-1.xml
+[15-Aug-2017 05:02:20 UTC] jp-sitemap-hLvFp: -- Cleaning Up jp_img_sitemap
+[15-Aug-2017 05:02:20 UTC] jp-sitemap-hLvFp: -- Cleaning Up jp_img_sitemap_index
+[15-Aug-2017 05:02:20 UTC] jp-sitemap-hLvFp: -- Building video-sitemap-1.xml
+[15-Aug-2017 05:02:20 UTC] jp-sitemap-hLvFp: -- Cleaning Up jp_vid_sitemap
+[15-Aug-2017 05:02:20 UTC] jp-sitemap-hLvFp: -- Cleaning Up jp_vid_sitemap_index
+[15-Aug-2017 05:02:20 UTC] jp-sitemap-hLvFp: -- Building Master Sitemap.
+[15-Aug-2017 05:02:20 UTC] jp-sitemap-hLvFp: -- Finished.
+[15-Aug-2017 05:02:20 UTC] jp-sitemap-hLvFp:  0.461 seconds elapsed.
+[15-Aug-2017 15:09:21 UTC] WP_Community_Events::maybe_log_events_response: Valid response received. Details: {"api_url":"https:\/\/api.wordpress.org\/events\/1.0\/","request_args":{"body":{"number":5,"ip":"144.202.253.0","locale":"en_US","timezone":"America\/Chicago"}},"response_code":200,"response_body":{"location":{"ip":"144.202.253.0"},"events":"5 events trimmed."}}
+[15-Aug-2017 16:43:54 UTC] jp-sitemap-sqj3U: -- Updating...
+[15-Aug-2017 16:43:54 UTC] jp-sitemap-sqj3U: -- Building sitemap-1.xml
+[15-Aug-2017 16:43:54 UTC] jp-sitemap-sqj3U: -- Cleaning Up jp_sitemap
+[15-Aug-2017 16:43:54 UTC] jp-sitemap-sqj3U: -- Cleaning Up jp_sitemap_index
+[15-Aug-2017 16:43:54 UTC] jp-sitemap-sqj3U: -- Building image-sitemap-1.xml
+[15-Aug-2017 16:43:54 UTC] jp-sitemap-sqj3U: -- Cleaning Up jp_img_sitemap
+[15-Aug-2017 16:43:54 UTC] jp-sitemap-sqj3U: -- Cleaning Up jp_img_sitemap_index
+[15-Aug-2017 16:43:54 UTC] jp-sitemap-sqj3U: -- Building video-sitemap-1.xml
+[15-Aug-2017 16:43:54 UTC] jp-sitemap-sqj3U: -- Cleaning Up jp_vid_sitemap
+[15-Aug-2017 16:43:54 UTC] jp-sitemap-sqj3U: -- Cleaning Up jp_vid_sitemap_index
+[15-Aug-2017 16:43:54 UTC] jp-sitemap-sqj3U: -- Building Master Sitemap.
+[15-Aug-2017 16:43:54 UTC] jp-sitemap-sqj3U: -- Finished.
+[15-Aug-2017 16:43:54 UTC] jp-sitemap-sqj3U:  0.278 seconds elapsed.
+[15-Aug-2017 23:49:22 UTC] jp-sitemap-CcGSC: Beginning news sitemap generation.
+[15-Aug-2017 23:49:22 UTC] jp-sitemap-CcGSC: End news sitemap generation. 0.012 seconds elapsed.
+[16-Aug-2017 04:58:43 UTC] jp-sitemap-324Mw: -- Updating...
+[16-Aug-2017 04:58:43 UTC] jp-sitemap-324Mw: -- Building sitemap-1.xml
+[16-Aug-2017 04:58:43 UTC] jp-sitemap-324Mw: -- Cleaning Up jp_sitemap
+[16-Aug-2017 04:58:43 UTC] jp-sitemap-324Mw: -- Cleaning Up jp_sitemap_index
+[16-Aug-2017 04:58:43 UTC] jp-sitemap-324Mw: -- Building image-sitemap-1.xml
+[16-Aug-2017 04:58:43 UTC] jp-sitemap-324Mw: -- Cleaning Up jp_img_sitemap
+[16-Aug-2017 04:58:43 UTC] jp-sitemap-324Mw: -- Cleaning Up jp_img_sitemap_index
+[16-Aug-2017 04:58:43 UTC] jp-sitemap-324Mw: -- Building video-sitemap-1.xml
+[16-Aug-2017 04:58:43 UTC] jp-sitemap-324Mw: -- Cleaning Up jp_vid_sitemap
+[16-Aug-2017 04:58:43 UTC] jp-sitemap-324Mw: -- Cleaning Up jp_vid_sitemap_index
+[16-Aug-2017 04:58:43 UTC] jp-sitemap-324Mw: -- Building Master Sitemap.
+[16-Aug-2017 04:58:43 UTC] jp-sitemap-324Mw: -- Finished.
+[16-Aug-2017 04:58:43 UTC] jp-sitemap-324Mw:  0.309 seconds elapsed.
+[16-Aug-2017 16:52:51 UTC] jp-sitemap-hwXt9: -- Updating...
+[16-Aug-2017 16:52:51 UTC] jp-sitemap-hwXt9: -- Building sitemap-1.xml
+[16-Aug-2017 16:52:51 UTC] jp-sitemap-hwXt9: -- Cleaning Up jp_sitemap
+[16-Aug-2017 16:52:51 UTC] jp-sitemap-hwXt9: -- Cleaning Up jp_sitemap_index
+[16-Aug-2017 16:52:51 UTC] jp-sitemap-hwXt9: -- Building image-sitemap-1.xml
+[16-Aug-2017 16:52:51 UTC] jp-sitemap-hwXt9: -- Cleaning Up jp_img_sitemap
+[16-Aug-2017 16:52:51 UTC] jp-sitemap-hwXt9: -- Cleaning Up jp_img_sitemap_index
+[16-Aug-2017 16:52:51 UTC] jp-sitemap-hwXt9: -- Building video-sitemap-1.xml
+[16-Aug-2017 16:52:51 UTC] jp-sitemap-hwXt9: -- Cleaning Up jp_vid_sitemap
+[16-Aug-2017 16:52:51 UTC] jp-sitemap-hwXt9: -- Cleaning Up jp_vid_sitemap_index
+[16-Aug-2017 16:52:51 UTC] jp-sitemap-hwXt9: -- Building Master Sitemap.
+[16-Aug-2017 16:52:51 UTC] jp-sitemap-hwXt9: -- Finished.
+[16-Aug-2017 16:52:51 UTC] jp-sitemap-hwXt9:  0.289 seconds elapsed.
+[17-Aug-2017 05:22:15 UTC] jp-sitemap-1uMg0: -- Updating...
+[17-Aug-2017 05:22:15 UTC] jp-sitemap-1uMg0: -- Building sitemap-1.xml
+[17-Aug-2017 05:22:15 UTC] jp-sitemap-1uMg0: -- Cleaning Up jp_sitemap
+[17-Aug-2017 05:22:15 UTC] jp-sitemap-1uMg0: -- Cleaning Up jp_sitemap_index
+[17-Aug-2017 05:22:15 UTC] jp-sitemap-1uMg0: -- Building image-sitemap-1.xml
+[17-Aug-2017 05:22:15 UTC] jp-sitemap-1uMg0: -- Cleaning Up jp_img_sitemap
+[17-Aug-2017 05:22:15 UTC] jp-sitemap-1uMg0: -- Cleaning Up jp_img_sitemap_index
+[17-Aug-2017 05:22:15 UTC] jp-sitemap-1uMg0: -- Building video-sitemap-1.xml
+[17-Aug-2017 05:22:15 UTC] jp-sitemap-1uMg0: -- Cleaning Up jp_vid_sitemap
+[17-Aug-2017 05:22:15 UTC] jp-sitemap-1uMg0: -- Cleaning Up jp_vid_sitemap_index
+[17-Aug-2017 05:22:15 UTC] jp-sitemap-1uMg0: -- Building Master Sitemap.
+[17-Aug-2017 05:22:15 UTC] jp-sitemap-1uMg0: -- Finished.
+[17-Aug-2017 05:22:15 UTC] jp-sitemap-1uMg0:  0.289 seconds elapsed.
+[17-Aug-2017 16:46:18 UTC] jp-sitemap-j6sPt: -- Updating...
+[17-Aug-2017 16:46:18 UTC] jp-sitemap-j6sPt: -- Building sitemap-1.xml
+[17-Aug-2017 16:46:18 UTC] jp-sitemap-j6sPt: -- Cleaning Up jp_sitemap
+[17-Aug-2017 16:46:18 UTC] jp-sitemap-j6sPt: -- Cleaning Up jp_sitemap_index
+[17-Aug-2017 16:46:18 UTC] jp-sitemap-j6sPt: -- Building image-sitemap-1.xml
+[17-Aug-2017 16:46:18 UTC] jp-sitemap-j6sPt: -- Cleaning Up jp_img_sitemap
+[17-Aug-2017 16:46:18 UTC] jp-sitemap-j6sPt: -- Cleaning Up jp_img_sitemap_index
+[17-Aug-2017 16:46:18 UTC] jp-sitemap-j6sPt: -- Building video-sitemap-1.xml
+[17-Aug-2017 16:46:18 UTC] jp-sitemap-j6sPt: -- Cleaning Up jp_vid_sitemap
+[17-Aug-2017 16:46:18 UTC] jp-sitemap-j6sPt: -- Cleaning Up jp_vid_sitemap_index
+[17-Aug-2017 16:46:18 UTC] jp-sitemap-j6sPt: -- Building Master Sitemap.
+[17-Aug-2017 16:46:18 UTC] jp-sitemap-j6sPt: -- Finished.
+[17-Aug-2017 16:46:18 UTC] jp-sitemap-j6sPt:  0.33 seconds elapsed.
+[17-Aug-2017 20:22:15 UTC] jp-sitemap-0iiDG: Beginning news sitemap generation.
+[17-Aug-2017 20:22:15 UTC] jp-sitemap-0iiDG: End news sitemap generation. 0.016 seconds elapsed.
+[18-Aug-2017 04:46:54 UTC] jp-sitemap-tLhaM: -- Updating...
+[18-Aug-2017 04:46:54 UTC] jp-sitemap-tLhaM: -- Building sitemap-1.xml
+[18-Aug-2017 04:46:54 UTC] jp-sitemap-tLhaM: -- Cleaning Up jp_sitemap
+[18-Aug-2017 04:46:54 UTC] jp-sitemap-tLhaM: -- Cleaning Up jp_sitemap_index
+[18-Aug-2017 04:46:54 UTC] jp-sitemap-tLhaM: -- Building image-sitemap-1.xml
+[18-Aug-2017 04:46:54 UTC] jp-sitemap-tLhaM: -- Cleaning Up jp_img_sitemap
+[18-Aug-2017 04:46:54 UTC] jp-sitemap-tLhaM: -- Cleaning Up jp_img_sitemap_index
+[18-Aug-2017 04:46:54 UTC] jp-sitemap-tLhaM: -- Building video-sitemap-1.xml
+[18-Aug-2017 04:46:54 UTC] jp-sitemap-tLhaM: -- Cleaning Up jp_vid_sitemap
+[18-Aug-2017 04:46:54 UTC] jp-sitemap-tLhaM: -- Cleaning Up jp_vid_sitemap_index
+[18-Aug-2017 04:46:54 UTC] jp-sitemap-tLhaM: -- Building Master Sitemap.
+[18-Aug-2017 04:46:54 UTC] jp-sitemap-tLhaM: -- Finished.
+[18-Aug-2017 04:46:54 UTC] jp-sitemap-tLhaM:  0.253 seconds elapsed.
+[18-Aug-2017 16:44:24 UTC] jp-sitemap-cmKkp: -- Updating...
+[18-Aug-2017 16:44:24 UTC] jp-sitemap-cmKkp: -- Building sitemap-1.xml
+[18-Aug-2017 16:44:24 UTC] jp-sitemap-cmKkp: -- Cleaning Up jp_sitemap
+[18-Aug-2017 16:44:24 UTC] jp-sitemap-cmKkp: -- Cleaning Up jp_sitemap_index
+[18-Aug-2017 16:44:24 UTC] jp-sitemap-cmKkp: -- Building image-sitemap-1.xml
+[18-Aug-2017 16:44:24 UTC] jp-sitemap-cmKkp: -- Cleaning Up jp_img_sitemap
+[18-Aug-2017 16:44:24 UTC] jp-sitemap-cmKkp: -- Cleaning Up jp_img_sitemap_index
+[18-Aug-2017 16:44:24 UTC] jp-sitemap-cmKkp: -- Building video-sitemap-1.xml
+[18-Aug-2017 16:44:24 UTC] jp-sitemap-cmKkp: -- Cleaning Up jp_vid_sitemap
+[18-Aug-2017 16:44:24 UTC] jp-sitemap-cmKkp: -- Cleaning Up jp_vid_sitemap_index
+[18-Aug-2017 16:44:24 UTC] jp-sitemap-cmKkp: -- Building Master Sitemap.
+[18-Aug-2017 16:44:24 UTC] jp-sitemap-cmKkp: -- Finished.
+[18-Aug-2017 16:44:24 UTC] jp-sitemap-cmKkp:  0.29 seconds elapsed.
+[18-Aug-2017 16:48:48 UTC] jp-sitemap-G9ags: Beginning news sitemap generation.
+[18-Aug-2017 16:48:48 UTC] jp-sitemap-G9ags: End news sitemap generation. 0.004 seconds elapsed.
+[19-Aug-2017 06:02:54 UTC] jp-sitemap-iyGdE: -- Updating...
+[19-Aug-2017 06:02:54 UTC] jp-sitemap-iyGdE: -- Building sitemap-1.xml
+[19-Aug-2017 06:02:54 UTC] jp-sitemap-iyGdE: -- Cleaning Up jp_sitemap
+[19-Aug-2017 06:02:54 UTC] jp-sitemap-iyGdE: -- Cleaning Up jp_sitemap_index
+[19-Aug-2017 06:02:54 UTC] jp-sitemap-iyGdE: -- Building image-sitemap-1.xml
+[19-Aug-2017 06:02:54 UTC] jp-sitemap-iyGdE: -- Cleaning Up jp_img_sitemap
+[19-Aug-2017 06:02:54 UTC] jp-sitemap-iyGdE: -- Cleaning Up jp_img_sitemap_index
+[19-Aug-2017 06:02:54 UTC] jp-sitemap-iyGdE: -- Building video-sitemap-1.xml
+[19-Aug-2017 06:02:54 UTC] jp-sitemap-iyGdE: -- Cleaning Up jp_vid_sitemap
+[19-Aug-2017 06:02:54 UTC] jp-sitemap-iyGdE: -- Cleaning Up jp_vid_sitemap_index
+[19-Aug-2017 06:02:54 UTC] jp-sitemap-iyGdE: -- Building Master Sitemap.
+[19-Aug-2017 06:02:54 UTC] jp-sitemap-iyGdE: -- Finished.
+[19-Aug-2017 06:02:54 UTC] jp-sitemap-iyGdE:  0.265 seconds elapsed.
+[19-Aug-2017 17:00:02 UTC] jp-sitemap-2QNaq: -- Updating...
+[19-Aug-2017 17:00:02 UTC] jp-sitemap-2QNaq: -- Building sitemap-1.xml
+[19-Aug-2017 17:00:02 UTC] jp-sitemap-2QNaq: -- Cleaning Up jp_sitemap
+[19-Aug-2017 17:00:02 UTC] jp-sitemap-2QNaq: -- Cleaning Up jp_sitemap_index
+[19-Aug-2017 17:00:02 UTC] jp-sitemap-2QNaq: -- Building image-sitemap-1.xml
+[19-Aug-2017 17:00:03 UTC] jp-sitemap-2QNaq: -- Cleaning Up jp_img_sitemap
+[19-Aug-2017 17:00:03 UTC] jp-sitemap-2QNaq: -- Cleaning Up jp_img_sitemap_index
+[19-Aug-2017 17:00:03 UTC] jp-sitemap-2QNaq: -- Building video-sitemap-1.xml
+[19-Aug-2017 17:00:03 UTC] jp-sitemap-2QNaq: -- Cleaning Up jp_vid_sitemap
+[19-Aug-2017 17:00:03 UTC] jp-sitemap-2QNaq: -- Cleaning Up jp_vid_sitemap_index
+[19-Aug-2017 17:00:03 UTC] jp-sitemap-2QNaq: -- Building Master Sitemap.
+[19-Aug-2017 17:00:03 UTC] jp-sitemap-2QNaq: -- Finished.
+[19-Aug-2017 17:00:03 UTC] jp-sitemap-2QNaq:  0.406 seconds elapsed.
+[20-Aug-2017 04:49:17 UTC] jp-sitemap-nVD6W: -- Updating...
+[20-Aug-2017 04:49:17 UTC] jp-sitemap-nVD6W: -- Building sitemap-1.xml
+[20-Aug-2017 04:49:17 UTC] jp-sitemap-nVD6W: -- Cleaning Up jp_sitemap
+[20-Aug-2017 04:49:17 UTC] jp-sitemap-nVD6W: -- Cleaning Up jp_sitemap_index
+[20-Aug-2017 04:49:17 UTC] jp-sitemap-nVD6W: -- Building image-sitemap-1.xml
+[20-Aug-2017 04:49:17 UTC] jp-sitemap-nVD6W: -- Cleaning Up jp_img_sitemap
+[20-Aug-2017 04:49:17 UTC] jp-sitemap-nVD6W: -- Cleaning Up jp_img_sitemap_index
+[20-Aug-2017 04:49:17 UTC] jp-sitemap-nVD6W: -- Building video-sitemap-1.xml
+[20-Aug-2017 04:49:17 UTC] jp-sitemap-nVD6W: -- Cleaning Up jp_vid_sitemap
+[20-Aug-2017 04:49:17 UTC] jp-sitemap-nVD6W: -- Cleaning Up jp_vid_sitemap_index
+[20-Aug-2017 04:49:17 UTC] jp-sitemap-nVD6W: -- Building Master Sitemap.
+[20-Aug-2017 04:49:17 UTC] jp-sitemap-nVD6W: -- Finished.
+[20-Aug-2017 04:49:17 UTC] jp-sitemap-nVD6W:  0.288 seconds elapsed.
+[20-Aug-2017 16:49:55 UTC] jp-sitemap-RRRPf: -- Updating...
+[20-Aug-2017 16:49:55 UTC] jp-sitemap-RRRPf: -- Building sitemap-1.xml
+[20-Aug-2017 16:49:55 UTC] jp-sitemap-RRRPf: -- Cleaning Up jp_sitemap
+[20-Aug-2017 16:49:55 UTC] jp-sitemap-RRRPf: -- Cleaning Up jp_sitemap_index
+[20-Aug-2017 16:49:55 UTC] jp-sitemap-RRRPf: -- Building image-sitemap-1.xml
+[20-Aug-2017 16:49:56 UTC] jp-sitemap-RRRPf: -- Cleaning Up jp_img_sitemap
+[20-Aug-2017 16:49:56 UTC] jp-sitemap-RRRPf: -- Cleaning Up jp_img_sitemap_index
+[20-Aug-2017 16:49:56 UTC] jp-sitemap-RRRPf: -- Building video-sitemap-1.xml
+[20-Aug-2017 16:49:56 UTC] jp-sitemap-RRRPf: -- Cleaning Up jp_vid_sitemap
+[20-Aug-2017 16:49:56 UTC] jp-sitemap-RRRPf: -- Cleaning Up jp_vid_sitemap_index
+[20-Aug-2017 16:49:56 UTC] jp-sitemap-RRRPf: -- Building Master Sitemap.
+[20-Aug-2017 16:49:56 UTC] jp-sitemap-RRRPf: -- Finished.
+[20-Aug-2017 16:49:56 UTC] jp-sitemap-RRRPf:  0.833 seconds elapsed.
+[21-Aug-2017 03:34:25 UTC] jp-sitemap-4TrzQ: Beginning news sitemap generation.
+[21-Aug-2017 03:34:25 UTC] jp-sitemap-4TrzQ: End news sitemap generation. 0.006 seconds elapsed.
+[21-Aug-2017 05:02:57 UTC] jp-sitemap-YYTZC: -- Updating...
+[21-Aug-2017 05:02:57 UTC] jp-sitemap-YYTZC: -- Building sitemap-1.xml
+[21-Aug-2017 05:02:58 UTC] jp-sitemap-YYTZC: -- Cleaning Up jp_sitemap
+[21-Aug-2017 05:02:58 UTC] jp-sitemap-YYTZC: -- Cleaning Up jp_sitemap_index
+[21-Aug-2017 05:02:58 UTC] jp-sitemap-YYTZC: -- Building image-sitemap-1.xml
+[21-Aug-2017 05:02:58 UTC] jp-sitemap-YYTZC: -- Cleaning Up jp_img_sitemap
+[21-Aug-2017 05:02:58 UTC] jp-sitemap-YYTZC: -- Cleaning Up jp_img_sitemap_index
+[21-Aug-2017 05:02:58 UTC] jp-sitemap-YYTZC: -- Building video-sitemap-1.xml
+[21-Aug-2017 05:02:58 UTC] jp-sitemap-YYTZC: -- Cleaning Up jp_vid_sitemap
+[21-Aug-2017 05:02:58 UTC] jp-sitemap-YYTZC: -- Cleaning Up jp_vid_sitemap_index
+[21-Aug-2017 05:02:58 UTC] jp-sitemap-YYTZC: -- Building Master Sitemap.
+[21-Aug-2017 05:02:58 UTC] jp-sitemap-YYTZC: -- Finished.
+[21-Aug-2017 05:02:58 UTC] jp-sitemap-YYTZC:  0.281 seconds elapsed.
+[21-Aug-2017 16:07:39 UTC] WP_Community_Events::maybe_log_events_response: Valid response received. Details: {"api_url":"https:\/\/api.wordpress.org\/events\/1.0\/","request_args":{"body":{"number":5,"ip":"96.41.252.0","locale":"en_US","timezone":"America\/Chicago"}},"response_code":200,"response_body":{"location":{"ip":"96.41.252.0"},"events":"4 events trimmed."}}
+[21-Aug-2017 16:44:46 UTC] jp-sitemap-KNPuo: -- Updating...
+[21-Aug-2017 16:44:46 UTC] jp-sitemap-KNPuo: -- Building sitemap-1.xml
+[21-Aug-2017 16:44:46 UTC] jp-sitemap-KNPuo: -- Cleaning Up jp_sitemap
+[21-Aug-2017 16:44:46 UTC] jp-sitemap-KNPuo: -- Cleaning Up jp_sitemap_index
+[21-Aug-2017 16:44:46 UTC] jp-sitemap-KNPuo: -- Building image-sitemap-1.xml
+[21-Aug-2017 16:44:46 UTC] jp-sitemap-KNPuo: -- Cleaning Up jp_img_sitemap
+[21-Aug-2017 16:44:46 UTC] jp-sitemap-KNPuo: -- Cleaning Up jp_img_sitemap_index
+[21-Aug-2017 16:44:46 UTC] jp-sitemap-KNPuo: -- Building video-sitemap-1.xml
+[21-Aug-2017 16:44:46 UTC] jp-sitemap-KNPuo: -- Cleaning Up jp_vid_sitemap
+[21-Aug-2017 16:44:46 UTC] jp-sitemap-KNPuo: -- Cleaning Up jp_vid_sitemap_index
+[21-Aug-2017 16:44:46 UTC] jp-sitemap-KNPuo: -- Building Master Sitemap.
+[21-Aug-2017 16:44:46 UTC] jp-sitemap-KNPuo: -- Finished.
+[21-Aug-2017 16:44:46 UTC] jp-sitemap-KNPuo:  0.251 seconds elapsed.
+[22-Aug-2017 04:53:17 UTC] jp-sitemap-Kw2d9: -- Updating...
+[22-Aug-2017 04:53:17 UTC] jp-sitemap-Kw2d9: -- Building sitemap-1.xml
+[22-Aug-2017 04:53:17 UTC] jp-sitemap-Kw2d9: -- Cleaning Up jp_sitemap
+[22-Aug-2017 04:53:17 UTC] jp-sitemap-Kw2d9: -- Cleaning Up jp_sitemap_index
+[22-Aug-2017 04:53:17 UTC] jp-sitemap-Kw2d9: -- Building image-sitemap-1.xml
+[22-Aug-2017 04:53:17 UTC] jp-sitemap-Kw2d9: -- Cleaning Up jp_img_sitemap
+[22-Aug-2017 04:53:17 UTC] jp-sitemap-Kw2d9: -- Cleaning Up jp_img_sitemap_index
+[22-Aug-2017 04:53:17 UTC] jp-sitemap-Kw2d9: -- Building video-sitemap-1.xml
+[22-Aug-2017 04:53:17 UTC] jp-sitemap-Kw2d9: -- Cleaning Up jp_vid_sitemap
+[22-Aug-2017 04:53:17 UTC] jp-sitemap-Kw2d9: -- Cleaning Up jp_vid_sitemap_index
+[22-Aug-2017 04:53:17 UTC] jp-sitemap-Kw2d9: -- Building Master Sitemap.
+[22-Aug-2017 04:53:17 UTC] jp-sitemap-Kw2d9: -- Finished.
+[22-Aug-2017 04:53:17 UTC] jp-sitemap-Kw2d9:  0.313 seconds elapsed.
+[22-Aug-2017 17:03:19 UTC] jp-sitemap-L3e8B: -- Updating...
+[22-Aug-2017 17:03:19 UTC] jp-sitemap-L3e8B: -- Building sitemap-1.xml
+[22-Aug-2017 17:03:19 UTC] jp-sitemap-L3e8B: -- Cleaning Up jp_sitemap
+[22-Aug-2017 17:03:19 UTC] jp-sitemap-L3e8B: -- Cleaning Up jp_sitemap_index
+[22-Aug-2017 17:03:19 UTC] jp-sitemap-L3e8B: -- Building image-sitemap-1.xml
+[22-Aug-2017 17:03:19 UTC] jp-sitemap-L3e8B: -- Cleaning Up jp_img_sitemap
+[22-Aug-2017 17:03:19 UTC] jp-sitemap-L3e8B: -- Cleaning Up jp_img_sitemap_index
+[22-Aug-2017 17:03:19 UTC] jp-sitemap-L3e8B: -- Building video-sitemap-1.xml
+[22-Aug-2017 17:03:19 UTC] jp-sitemap-L3e8B: -- Cleaning Up jp_vid_sitemap
+[22-Aug-2017 17:03:19 UTC] jp-sitemap-L3e8B: -- Cleaning Up jp_vid_sitemap_index
+[22-Aug-2017 17:03:19 UTC] jp-sitemap-L3e8B: -- Building Master Sitemap.
+[22-Aug-2017 17:03:19 UTC] jp-sitemap-L3e8B: -- Finished.
+[22-Aug-2017 17:03:19 UTC] jp-sitemap-L3e8B:  0.331 seconds elapsed.
+[23-Aug-2017 01:02:24 UTC] jp-sitemap-ByNLH: Beginning news sitemap generation.
+[23-Aug-2017 01:02:24 UTC] jp-sitemap-ByNLH: End news sitemap generation. 0.021 seconds elapsed.
+[23-Aug-2017 04:47:17 UTC] jp-sitemap-AokwK: -- Updating...
+[23-Aug-2017 04:47:17 UTC] jp-sitemap-AokwK: -- Building sitemap-1.xml
+[23-Aug-2017 04:47:17 UTC] jp-sitemap-AokwK: -- Cleaning Up jp_sitemap
+[23-Aug-2017 04:47:17 UTC] jp-sitemap-AokwK: -- Cleaning Up jp_sitemap_index
+[23-Aug-2017 04:47:17 UTC] jp-sitemap-AokwK: -- Building image-sitemap-1.xml
+[23-Aug-2017 04:47:17 UTC] jp-sitemap-AokwK: -- Cleaning Up jp_img_sitemap
+[23-Aug-2017 04:47:17 UTC] jp-sitemap-AokwK: -- Cleaning Up jp_img_sitemap_index
+[23-Aug-2017 04:47:17 UTC] jp-sitemap-AokwK: -- Building video-sitemap-1.xml
+[23-Aug-2017 04:47:17 UTC] jp-sitemap-AokwK: -- Cleaning Up jp_vid_sitemap
+[23-Aug-2017 04:47:17 UTC] jp-sitemap-AokwK: -- Cleaning Up jp_vid_sitemap_index
+[23-Aug-2017 04:47:17 UTC] jp-sitemap-AokwK: -- Building Master Sitemap.
+[23-Aug-2017 04:47:17 UTC] jp-sitemap-AokwK: -- Finished.
+[23-Aug-2017 04:47:17 UTC] jp-sitemap-AokwK:  0.248 seconds elapsed.
+[23-Aug-2017 16:43:55 UTC] jp-sitemap-khfOq: -- Updating...
+[23-Aug-2017 16:43:55 UTC] jp-sitemap-khfOq: -- Building sitemap-1.xml
+[23-Aug-2017 16:43:55 UTC] jp-sitemap-khfOq: -- Cleaning Up jp_sitemap
+[23-Aug-2017 16:43:55 UTC] jp-sitemap-khfOq: -- Cleaning Up jp_sitemap_index
+[23-Aug-2017 16:43:55 UTC] jp-sitemap-khfOq: -- Building image-sitemap-1.xml
+[23-Aug-2017 16:43:55 UTC] jp-sitemap-khfOq: -- Cleaning Up jp_img_sitemap
+[23-Aug-2017 16:43:55 UTC] jp-sitemap-khfOq: -- Cleaning Up jp_img_sitemap_index
+[23-Aug-2017 16:43:55 UTC] jp-sitemap-khfOq: -- Building video-sitemap-1.xml
+[23-Aug-2017 16:43:55 UTC] jp-sitemap-khfOq: -- Cleaning Up jp_vid_sitemap
+[23-Aug-2017 16:43:55 UTC] jp-sitemap-khfOq: -- Cleaning Up jp_vid_sitemap_index
+[23-Aug-2017 16:43:55 UTC] jp-sitemap-khfOq: -- Building Master Sitemap.
+[23-Aug-2017 16:43:55 UTC] jp-sitemap-khfOq: -- Finished.
+[23-Aug-2017 16:43:55 UTC] jp-sitemap-khfOq:  0.259 seconds elapsed.
+[24-Aug-2017 01:45:40 UTC] jp-sitemap-L5WMp: Beginning news sitemap generation.
+[24-Aug-2017 01:45:40 UTC] jp-sitemap-L5WMp: End news sitemap generation. 0.006 seconds elapsed.
+[24-Aug-2017 04:43:08 UTC] jp-sitemap-rdFgr: -- Updating...
+[24-Aug-2017 04:43:08 UTC] jp-sitemap-rdFgr: -- Building sitemap-1.xml
+[24-Aug-2017 04:43:08 UTC] jp-sitemap-rdFgr: -- Cleaning Up jp_sitemap
+[24-Aug-2017 04:43:08 UTC] jp-sitemap-rdFgr: -- Cleaning Up jp_sitemap_index
+[24-Aug-2017 04:43:08 UTC] jp-sitemap-rdFgr: -- Building image-sitemap-1.xml
+[24-Aug-2017 04:43:08 UTC] jp-sitemap-rdFgr: -- Cleaning Up jp_img_sitemap
+[24-Aug-2017 04:43:08 UTC] jp-sitemap-rdFgr: -- Cleaning Up jp_img_sitemap_index
+[24-Aug-2017 04:43:08 UTC] jp-sitemap-rdFgr: -- Building video-sitemap-1.xml
+[24-Aug-2017 04:43:08 UTC] jp-sitemap-rdFgr: -- Cleaning Up jp_vid_sitemap
+[24-Aug-2017 04:43:08 UTC] jp-sitemap-rdFgr: -- Cleaning Up jp_vid_sitemap_index
+[24-Aug-2017 04:43:08 UTC] jp-sitemap-rdFgr: -- Building Master Sitemap.
+[24-Aug-2017 04:43:08 UTC] jp-sitemap-rdFgr: -- Finished.
+[24-Aug-2017 04:43:08 UTC] jp-sitemap-rdFgr:  0.267 seconds elapsed.

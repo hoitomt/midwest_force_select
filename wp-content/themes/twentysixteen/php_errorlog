@@ -1,0 +1,1 @@
+[10-Jul-2017 10:05:50 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/hoitomts/public_html/midwest_force_select/wp-content/themes/twentysixteen/404.php on line 10
