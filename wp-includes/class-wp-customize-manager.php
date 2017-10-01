@@ -265,7 +265,7 @@ final class WP_Customize_Manager {
 		}
 
 		$this->original_stylesheet = get_stylesheet();
-		$this->theme = wp_get_theme( $args['theme'] );
+		$this->theme = wp_get_theme( 0 === validate_file( $args['theme'] ) ? $args['theme'] : null );
 		$this->messenger_channel = $args['messenger_channel'];
 		$this->_changeset_uuid = $args['changeset_uuid'];
 
@@ -1626,6 +1626,7 @@ final class WP_Customize_Manager {
 	public function filter_iframe_security_headers( $headers ) {
 		$customize_url = admin_url( 'customize.php' );
 		$headers['X-Frame-Options'] = 'ALLOW-FROM ' . $customize_url;
+		$headers['X-FRAME-OPTIONS'] = 'ALLOW-FROM ' . 'www.youtube.com';
 		$headers['Content-Security-Policy'] = 'frame-ancestors ' . preg_replace( '#^(\w+://[^/]+).+?$#', '$1', $customize_url );
 		return $headers;
 	}

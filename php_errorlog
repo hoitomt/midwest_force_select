@@ -447,3 +447,46 @@ Stack trace:
 #2 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
 #3 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
 #4 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/Charge.php(73): Stripe\ApiResource:: in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php on line 114
+[24-Aug-2017 13:34:24 CST6CDT] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'No such token: tok_1AuQ9pEwcdKe33n0oYTMALFs' in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php:110 from API request 'req_jAleneD1hJm85Z'
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+#3 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+#4 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/Customer.php(59): Stripe\Ap in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php on line 110
+[28-Aug-2017 11:35:10 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'camp_name' cannot be null' in /home/hoitomts/public_html/midwest_force_select/forms.php:22
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/forms.php(22): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/forms.php on line 22
+[28-Aug-2017 11:35:18 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'camp_name' cannot be null' in /home/hoitomts/public_html/midwest_force_select/forms.php:22
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/forms.php(22): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/forms.php on line 22
+[31-Aug-2017 12:58:34 CST6CDT] PHP Fatal error:  Uncaught exception 'Stripe\Error\Card' with message 'Cannot charge a customer that has no active card' in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php:114 from API request 'req_2vl0TlmNgoFrb6'
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 402, Array, Array)
+#1 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 402, Array)
+#2 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/Charge.php(73): Stripe\ApiResource:: in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php on line 114
+[11-Sep-2017 11:39:02 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'camp_name' cannot be null' in /home/hoitomts/public_html/midwest_force_select/forms.php:22
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/forms.php(22): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/forms.php on line 22
+[27-Sep-2017 08:34:53 CST6CDT] PHP Fatal error:  Uncaught exception 'Stripe\Error\Card' with message 'Your card was declined.' in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php:114 from API request 'req_wQNgaJAqywq1Uk'
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 402, Array, Array)
+#1 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 402, Array)
+#2 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+#3 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+#4 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/Customer.php(59): Stripe\ApiResource::_create(Array, NULL in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php on line 114
+[27-Sep-2017 08:37:22 CST6CDT] PHP Fatal error:  Uncaught exception 'Stripe\Error\Card' with message 'Your card was declined.' in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php:114 from API request 'req_GaIU4gw1zQ0n7G'
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 402, Array, Array)
+#1 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 402, Array)
+#2 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+#3 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+#4 /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/Customer.php(59): Stripe\ApiResource::_create(Array, NULL in /home/hoitomts/public_html/midwest_force_select/stripe-php-4.3.0/lib/ApiRequestor.php on line 114

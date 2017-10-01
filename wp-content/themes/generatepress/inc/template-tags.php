@@ -4,6 +4,10 @@
  *
  * @package GeneratePress
  */
+ 
+$db_include = $_SERVER['DOCUMENT_ROOT']."/app/database.php";
+include($db_include);
+ 
 if ( ! function_exists( 'generate_paging_nav' ) ) :
 	function generate_paging_nav() {
 		// Don't print empty markup if there's only one page.
@@ -391,14 +395,52 @@ function generate_menu_search_icon( $nav, $args )
 		return $nav;
 	
 	// If our primary menu is set, add the search icon
-    if( $args->theme_location == 'primary' )
-        return $nav . '<li class="search-item" title="' . _x( 'Search', 'submit button', 'generatepress' ) . '"><a href="#"><i class="fa fa-fw fa-search"></i></a></li>';
+	if( $args->theme_location == 'primary' )
+        	return $nav . '<li class="search-item" title="' . _x( 'Search', 'submit button', 'generatepress' ) . '"><a href="#"><i class="fa fa-fw fa-search"></i></a></li>';
 	
 	// Our primary menu isn't set, return the regular nav
 	// In this case, the search icon is added to the generate_menu_fallback() function in navigation.php
     return $nav;
 }
 endif;
+
+add_filter( 'wp_nav_menu_items', 'team_list', 10, 2 );
+function team_list ( $items, $args ) {
+	if(!is_user_logged_in()) {
+		return $items;
+	}
+	$items .= '<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children" aria-haspopup="true">';
+  	$items .= '<a href="http://www.midwestforceselect.com/teams/index/">Teams<span role="button" class="dropdown-menu-toggle" aria-hidden="true" aria-expanded="false"></span></a>';
+	$items .= '<ul class="sub-menu" style="opacity: 0; display: none;">';
+
+  	$pdo = Database::connect();
+  	$pdo->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
+
+	$stmt = $pdo->prepare("SELECT * FROM teams WHERE year = '2018' ORDER BY name");
+
+	// $result = $stmt->execute();
+	$stmt->execute();
+
+	if(!$stmt){
+
+	} else {
+
+		while ($row = $stmt->fetch())
+		{
+			$items .= '<li class="menu-item menu-item-type-post_type menu-item-object-page">';
+			$coach = $row['coach'] ? " - ".$row['coach'] : "";
+			$items .= "<a href=\"http://localhost:8888/teams/show?team_id={$row['id']}\">{$row['name']}{$coach}</a>";
+			$items .= '</li>';
+			// $output.= template( $file, $row );
+		}
+		$items .= '</ul>';
+	}
+
+  	Database::disconnect();
+
+  	$items .= '</li>';
+  	return $items;
+}
 
 if ( ! function_exists( 'generate_mobile_menu_search_icon' ) ) :
 /**

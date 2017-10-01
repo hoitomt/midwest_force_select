@@ -1,0 +1,5 @@
+[28-Sep-2017 00:07:27 CST6CDT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hoitomts_midwest_force_select.roster' doesn't exist' in /home/hoitomts/public_html/midwest_force_select/app/rosters/delete.php:12
+Stack trace:
+#0 /home/hoitomts/public_html/midwest_force_select/app/rosters/delete.php(12): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hoitomts/public_html/midwest_force_select/app/rosters/delete.php on line 12

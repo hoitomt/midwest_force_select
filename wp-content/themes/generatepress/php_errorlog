@@ -12,3 +12,6 @@
 [30-Apr-2017 01:31:18 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/hoitomts/public_html/midwest_force_select/wp-content/themes/generatepress/index.php on line 14
 [01-Jun-2017 07:25:39 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/hoitomts/public_html/midwest_force_select/wp-content/themes/generatepress/index.php on line 14
 [02-Jul-2017 02:58:22 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/hoitomts/public_html/midwest_force_select/wp-content/themes/generatepress/index.php on line 14
+[10-Sep-2017 04:29:15 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/hoitomts/public_html/midwest_force_select/wp-content/themes/generatepress/404.php on line 8
+[11-Sep-2017 00:59:48 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/hoitomts/public_html/midwest_force_select/wp-content/themes/generatepress/index.php on line 14
+[11-Sep-2017 10:32:29 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/hoitomts/public_html/midwest_force_select/wp-content/themes/generatepress/index.php on line 14
