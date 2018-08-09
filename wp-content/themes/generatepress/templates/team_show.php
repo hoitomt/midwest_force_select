@@ -9,7 +9,7 @@
   $pdo = Database::connect();
   $pdo->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 
-  $players_stmt = $pdo->prepare("SELECT r.id as roster_id, p.* FROM rosters r JOIN teams t on t.id = r.team_id JOIN players p on p.id = r.player_id WHERE t.id = :team_id");
+  $players_stmt = $pdo->prepare("SELECT r.id as roster_id, p.* FROM rosters r JOIN teams t on t.id = r.team_id JOIN players p on p.id = r.player_id WHERE t.id = :team_id ORDER BY p.number");
   $players_stmt->bindParam(':team_id', $team_id);
   $players_stmt->execute();
 
@@ -19,6 +19,8 @@
   $team = $team_stmt->fetch(PDO::FETCH_OBJ);
 
   Database::disconnect();
+  
+  $coach = $team->coach ? " - ".$team->coach : "";
 
   get_header();
 ?>
@@ -29,7 +31,7 @@
           <div class="inside-article">
 
             <header class="entry-header">
-              <h1 class="entry-title" itemprop="headline"><?php echo $team->name." - ".$team->coach ?></h1>
+              <h1 class="entry-title" itemprop="headline"><?php echo $team->name.$coach ?></h1>
             </header><!-- .entry-header -->
 
             <div class="entry-content" itemprop="text">
@@ -60,7 +62,7 @@
                     <?php while ($row = $players_stmt->fetch()) { ?>
                     <tr>
                       <td class="text-center"><?php echo $row['number'] ?></td>
-                      <?php $player_link = '/teams/players/show/?player_id='.$row['id']; ?>
+                      <?php $player_link = '/teams/players/show/?player_id='.$row['id'].'&team_id='.$team_id; ?>
                       <td><a href="<?php echo $player_link; ?>"><?php echo $row['name']; ?></a></td>
                       <td><?php echo $row['height_feet']."' ".$row['height_inches'].'"'; ?></td>
                       <td><?php echo $row['position']; ?></td>
@@ -70,7 +72,7 @@
                         <?php
                           if ( is_user_logged_in() ) {
                         ?>
-                          <a href="/teams/players/edit/?player_id=<?php echo $row['id'] ?>"><i class="glyphicon glyphicon-pencil"></i></a>
+                          <a href="/teams/players/edit/?player_id=<?php echo $row['id'] ?>&team_id=<?php echo $team_id ?>"><i class="glyphicon glyphicon-pencil"></i></a>
                           <a href="/app/rosters/delete.php/?roster_id=<?php echo $row['roster_id'] ?>&team_id=<?php echo $team_id ?>"><i class="glyphicon glyphicon-remove"></i></a>
                         <?php
                           }

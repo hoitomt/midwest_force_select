@@ -406,19 +406,17 @@ endif;
 
 add_filter( 'wp_nav_menu_items', 'team_list', 10, 2 );
 function team_list ( $items, $args ) {
-	if(!is_user_logged_in()) {
-		return $items;
-	}
-	$items .= '<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children" aria-haspopup="true">';
-  	$items .= '<a href="http://www.midwestforceselect.com/teams/index/">Teams<span role="button" class="dropdown-menu-toggle" aria-hidden="true" aria-expanded="false"></span></a>';
-	$items .= '<ul class="sub-menu" style="opacity: 0; display: none;">';
 
-  	$pdo = Database::connect();
-  	$pdo->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
+	$teams_sub_menu = '<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children" aria-haspopup="true">';
+  $teams_sub_menu .= '<a href="http://www.midwestforceselect.com/teams/index/">Teams';
+  $teams_sub_menu .= '<span role="button" class="dropdown-menu-toggle" aria-hidden="true" aria-expanded="false"></span></a>';
+	$teams_sub_menu .= '<ul id="teams-sub-menu" class="sub-menu" style="opacity: 0; display: none;">';
+
+  $pdo = Database::connect();
+  $pdo->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 
 	$stmt = $pdo->prepare("SELECT * FROM teams WHERE year = '2018' ORDER BY name");
 
-	// $result = $stmt->execute();
 	$stmt->execute();
 
 	if(!$stmt){
@@ -427,19 +425,31 @@ function team_list ( $items, $args ) {
 
 		while ($row = $stmt->fetch())
 		{
-			$items .= '<li class="menu-item menu-item-type-post_type menu-item-object-page">';
+			$teams_sub_menu .= '<li class="menu-item menu-item-type-post_type menu-item-object-page">';
 			$coach = $row['coach'] ? " - ".$row['coach'] : "";
-			$items .= "<a href=\"http://localhost:8888/teams/show?team_id={$row['id']}\">{$row['name']}{$coach}</a>";
-			$items .= '</li>';
+			$teams_sub_menu .= "<a href=\"http://www.midwestforceselect.com/teams/show?team_id={$row['id']}\">{$row['name']}{$coach}</a>";
+			$teams_sub_menu .= '</li>';
 			// $output.= template( $file, $row );
 		}
-		$items .= '</ul>';
+		$teams_sub_menu .= '</ul>';
 	}
 
-  	Database::disconnect();
+  Database::disconnect();
 
-  	$items .= '</li>';
-  	return $items;
+  $teams_sub_menu .= '</li>';
+  
+  $script = <<<EOT
+<script>
+	var originalTeam = jQuery('#menu-main-menu > li').last()
+	jQuery('#menu-main-menu > li:eq(0)').after(originalTeam[0].outerHTML);
+	originalTeam.remove();
+</script>
+EOT;
+
+  $items .= $teams_sub_menu;
+  $items .= $script;
+
+  return $items;
 }
 
 if ( ! function_exists( 'generate_mobile_menu_search_icon' ) ) :

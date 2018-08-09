@@ -42,7 +42,7 @@
                       <button type="submit" class="btn btn-success">Save</button>
                     </div>
                     <div class="col-sm-offset-1 col-sm-1">
-                      <a href="/teams" class="btn btn-danger">Cancel</a>
+                      <a href="/teams/index" class="btn btn-danger">Cancel</a>
                     </div>
                   </div>
                 </form>

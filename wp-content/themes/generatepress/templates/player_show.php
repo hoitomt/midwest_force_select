@@ -20,9 +20,15 @@ f<?php
 
   $videos_stmt->execute();
 
-  Database::disconnect();
+  $roster_stmt = $pdo->prepare("SELECT * FROM rosters WHERE player_id = :player_id order by id DESC limit 1");
+  $roster_stmt->bindParam(':player_id', $player_id);
 
-  $team_id = $player->team_id;
+  $roster_stmt->execute();
+  $roster = $roster_stmt->fetch(PDO::FETCH_OBJ);
+
+  Database::disconnect();
+  
+  $team_id = $_GET['team_id'] ?: $roster->team_id;
 
   get_header();
 ?>
@@ -75,7 +81,7 @@ hr {
                             Select Photo <input id="select-player-photo" 
                             			type="file" 
                             			style="display: none;"
-                            			onchange="uploadFileToS3('<?php echo $player->id ?>')">
+                            			onchange="uploadFileToS3Oriented('<?php echo $player->id ?>')">
                           </label>
                           <?php } ?>
                         </div>
@@ -105,6 +111,19 @@ hr {
                             <td><?php echo $player->gpa ?></td>
                           </tr>
                         </table>
+                      	<?php if ( is_user_logged_in() ) { ?>
+                      	  <form action="/app/players/update_status.php" method="POST">
+                      	    <input type="hidden" name="player_id" value="<?php echo $player->id ?>">
+                      	    <input type="hidden" name="team_id" value="<?php echo $team_id ?>">
+                      	    <?php if ( $player->active ) { ?>
+                      	      <input type="hidden" name="active" value="false">
+                      	      <input type="submit" style="color: #fff; background-color: #d9534f; border-color: #d43f3a;" class="btn btn-danger" value="Deactivate">
+                      	    <?php } else { ?>
+                      	      <input type="hidden" name="active" value="true">
+                      	      <input type="submit" class="btn" style="color: #fff; background-color: #5cb85c; border-color: #4cae4c;" value="Activate">
+                      	    <?php } ?>
+                      	  </form>
+                      	<?php } ?>
                       </div>
                       <div class="col-md-9">
                         <div style="margin: 0px auto; 
@@ -176,6 +195,8 @@ hr {
   
   <script src="/wp-content/themes/generatepress/js/jquery-1.12.4.min.js"></script>
   <script src="/wp-content/themes/generatepress/js/aws/aws-sdk.min.js"></script>
+  <script src="/wp-content/themes/generatepress/js/exif.min.js"></script>
+  <script src="/wp-content/themes/generatepress/js/load-image.all.min.js"></script>
   <script src="/wp-content/themes/generatepress/js/photo_uploader.js"></script>
 <?php
 do_action('generate_sidebars');

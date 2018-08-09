@@ -1,3 +1,31 @@
+dataUrlToBlob = function(dataurl) {
+    var arr = dataurl.split(','), mime = arr[0].match(/:(.*?);/)[1],
+        bstr = atob(arr[1]), n = bstr.length, u8arr = new Uint8Array(n);
+    while(n--){
+        u8arr[n] = bstr.charCodeAt(n);
+    }
+    return new Blob([u8arr], {type:mime});
+}
+
+var uploadFileToS3Oriented = function(playerId) {
+  var imageFile = document.getElementById('select-player-photo').files[0];
+  
+  var orientedImage = loadImage(
+    imageFile,
+    function (canvas) {
+      jQuery('#player-profile-photo')
+    	   .attr('src', canvas.toDataURL())
+      var imageBlog = dataUrlToBlob(canvas.toDataURL("image/png"));
+      addPhotoMfs(imageBlog, playerId);
+    },
+    {
+      maxWidth: 150,
+      orientation: true,
+      canvas: false
+    }
+  );
+}
+
 var uploadFileToS3 = function(playerId) {
   var files = document.getElementById('select-player-photo').files;
   if (!files.length) {

@@ -14,11 +14,17 @@
 
   $player_stmt->execute();
   $player = $player_stmt->fetch(PDO::FETCH_OBJ);
+  
+  $roster_stmt = $pdo->prepare("SELECT * FROM rosters WHERE player_id = :player_id order by id DESC limit 1");
+  $roster_stmt->bindParam(':player_id', $player_id);
+
+  $roster_stmt->execute();
+  $roster = $roster_stmt->fetch(PDO::FETCH_OBJ);
 
   Database::disconnect();
-
-  $team_id = $player->team_id;
-
+  
+  $team_id = $_GET['team_id'] ?: $roster->team_id;
+  
   get_header();
 
 ?>

@@ -19,7 +19,7 @@
 			date                : wp.template( 'grunion-field-date' ),
 			text                : wp.template( 'grunion-field-text' ),
 			name                : wp.template( 'grunion-field-text' ),
-			url                 : wp.template( 'grunion-field-text' )
+			url                 : wp.template( 'grunion-field-url' )
 		},
 		edit_template  : wp.template( 'grunion-field-edit' ),
 		editor_inline  : wp.template( 'grunion-editor-inline' ),
@@ -114,6 +114,11 @@
 				setTimeout( function(){
 					$editframe.trigger( 'checkheight' );
 				}, 250 );
+
+				// Add a second timeout for super long forms racing, and to not slow it down for shorter forms unnecessarily.
+				setTimeout( function(){
+					$editframe.trigger( 'checkheight' );
+				}, 500 );
 
 				var $editfields = $editframe.contents().find( '.grunion-fields' ),
 					$buttons = $editframe.contents().find( '.grunion-controls' );

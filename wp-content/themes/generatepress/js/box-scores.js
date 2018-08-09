@@ -57,7 +57,7 @@ function getBoxScores(startDate, endDate, tabSelector) {
 
 jQuery(function(){
 
-  getBoxScores('2016-11-01', '', '#season');
+  getBoxScores('2017-11-01', '', '#season');
   
   jQuery('.entry-header').hide();
   

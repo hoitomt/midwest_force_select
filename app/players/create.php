@@ -24,14 +24,27 @@
   $stmt->bindParam(':colleges_interested', $form_data['colleges_interested']);
   $stmt->bindParam(':gpa', $form_data['gpa']);
 
-  $persist_status = $stmt->execute();
+  $player_persist_status = $stmt->execute();
+  if(1 != $player_persist_status) {
+    header("Location: http://".$_SERVER['HTTP_HOST']."/teams/players/new/?team_id=".$team_id);
+  }
+  
+  $last_id_stmt = $pdo->query("SELECT LAST_INSERT_ID()");
+  $player_id = $last_id_stmt->fetchColumn();
+  
+  $roster_stmt = $pdo->prepare("INSERT INTO rosters (player_id, team_id) VALUES (:player_id, :team_id)");
 
+  $roster_stmt->bindParam(':player_id', $player_id);
+  $roster_stmt->bindParam(':team_id', $team_id);
+
+  $roster_persist_status = $roster_stmt->execute();
+  
   Database::disconnect();
 
-  if(1 == $persist_status) {
+  if(1 == $roster_persist_status) {
     header("Location: http://".$_SERVER['HTTP_HOST']."/teams/show/?team_id=".$team_id);
   } else {
-    header("Location: http://".$_SERVER['HTTP_HOST']."/teams/players/new/?team=".$team_id);
+    header("Location: http://".$_SERVER['HTTP_HOST']."/teams/players/new/?team_id=".$team_id);
   }
 
 ?>
